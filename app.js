@@ -1,23 +1,22 @@
 const photoDetails = {
-  "01": { title: "风过山脊 · I", category: "mountain", alt: "云雾掠过有小路的高山山脊" },
-  "02": { title: "风过山脊 · II", category: "mountain", alt: "云雾中的尖峰与山脊小路" },
-  "03": { title: "低云与湖", category: "water", alt: "低云覆盖山体，前方湖水映出山影" },
-  "04": { title: "水城暮光", category: "journey", alt: "傍晚的运河与两岸建筑" },
-  "05": { title: "湖边的群山", category: "water", alt: "高山、湖畔建筑与清晰的水中倒影" },
-  "06": { title: "向谷底", category: "mountain", alt: "两侧岩壁之间延伸到远方的山谷" },
-  "07": { title: "石塔", category: "mountain", alt: "近处灌木和远方的高耸岩峰" },
-  "08": { title: "三峰", category: "mountain", alt: "蓝天下三座雄伟岩峰的轮廓" },
-  "09": { title: "雾中山脊", category: "mountain", alt: "浓雾里通向远处的山脊步道" },
-  "10": { title: "云后有山", category: "water", alt: "厚云下蓝灰色的远山和谷地" },
-  "11": { title: "山与湖之间", category: "water", alt: "云影压在山间湖泊与草坡之上" },
-  "12": { title: "蓝色层峦", category: "mountain", alt: "一层层蓝色山峦延伸向远方" },
-  "13": { title: "远山层叠", category: "mountain", alt: "逆光下起伏的山坡与层叠远山" },
-  "14": { title: "山脊上的路", category: "mountain", alt: "近处断崖与小路指向云中的远峰" },
-  "15": { title: "秋树", category: "journey", alt: "一棵金黄的秋树在深色森林前发光" },
-  "16": { title: "云影下的高原", category: "water", alt: "云影下的草坡、树林和远处山峰" },
-  "17": { title: "山间小屋", category: "journey", alt: "阳光下山间草坡的小木屋" },
+  "01": { title: "云遮山影", category: "water", alt: "云雾遮住岩峰，山影倒映在平静的湖面" },
+  "02": { title: "城中暮色", category: "journey", alt: "暮色中的城市建筑与灯光" },
+  "03": { title: "湖边的群山", category: "water", alt: "高山、湖畔建筑与湖水中的倒影" },
+  "04": { title: "谷底的河", category: "water", alt: "黑白山谷中一条明亮的河流蜿蜒向远方" },
+  "05": { title: "石塔", category: "mountain", alt: "黑白岩峰和山坡上的光影" },
+  "06": { title: "群峰之间", category: "mountain", alt: "蓝天下的岩峰与近处草坡" },
+  "07": { title: "云后有山", category: "mountain", alt: "高山在云与层层山坡之后" },
+  "08": { title: "山脊上的路", category: "mountain", alt: "近处断崖与小路指向云中的远峰" },
+  "09": { title: "云影下的高原", category: "mountain", alt: "积云下的远山与草坡" },
+  "10": { title: "山谷晨光", category: "mountain", alt: "晨光从山谷一侧照向谷地" },
+  "11": { title: "山间小屋", category: "journey", alt: "阳光下山间草坡的小木屋" },
+  "12": { title: "窗外雪山", category: "journey", alt: "从室内窗口望向远处的雪山" },
+  "13": { title: "粉色黄昏", category: "journey", alt: "黄昏的粉色云彩和山脚小屋" },
+  "14": { title: "蓝调山路", category: "journey", alt: "蓝色暮光下通向山间建筑的道路" },
+  "15": { title: "云层下的光", category: "mountain", alt: "云层透出光线，照亮远处山峰" },
+  "16": { title: "雾中山峰", category: "mountain", alt: "蓝色云雾间露出的山峰" },
+  "17": { title: "云海中的峰", category: "mountain", alt: "冷蓝色云海中露出的山峰" },
   "18": { title: "星河之下", category: "night", alt: "银河悬在山谷与草地上空" },
-  "19": { title: "风过山脊 · III", category: "mountain", alt: "云雾绕过高山和山脊" },
 };
 
 const categoryNames = {
@@ -39,6 +38,8 @@ const plusButton = document.getElementById("lightbox-plus");
 const zoomLevel = document.getElementById("lightbox-zoom-level");
 const lightboxTitle = document.getElementById("lightbox-title");
 const lightboxFile = document.getElementById("lightbox-file");
+const lightboxExposure = document.getElementById("lightbox-exposure");
+const lightboxGear = document.getElementById("lightbox-gear");
 const lightboxPosition = document.getElementById("lightbox-position");
 let photos = [];
 let visiblePhotos = [];
@@ -52,6 +53,17 @@ let detailRequest = 0;
 let panStart = null;
 let pinchStart = null;
 const pointers = new Map();
+
+function cameraSettings(photo) {
+  const exif = photo.exposure || {};
+  const parts = [exif.iso && `ISO ${exif.iso}`, exif.shutter, exif.aperture, exif.focalLength].filter(Boolean);
+  return parts.length ? parts.join("  ·  ") : "拍摄参数未保留";
+}
+
+function cameraGear(photo) {
+  const exif = photo.exposure || {};
+  return [exif.camera, exif.lens].filter(Boolean).join("  ·  ");
+}
 
 function updateZoom() {
   const maxX = Math.max(0, (lightboxImage.offsetWidth * zoomScale - lightboxStage.clientWidth) / 2);
@@ -126,6 +138,10 @@ function cardFor(photo) {
   image.width = photo.width;
   image.height = photo.height;
   imageWrap.append(image);
+  const exposure = document.createElement("span");
+  exposure.className = "gallery-exposure";
+  exposure.textContent = cameraSettings(photo);
+  imageWrap.append(exposure);
 
   const meta = document.createElement("span");
   meta.className = "gallery-card-meta";
@@ -159,6 +175,8 @@ function showPhoto(index) {
   lightboxImage.alt = photo.alt;
   lightboxTitle.textContent = photo.title;
   lightboxFile.textContent = photo.original;
+  lightboxExposure.textContent = cameraSettings(photo);
+  lightboxGear.textContent = cameraGear(photo);
   lightboxPosition.textContent = `${String(currentIndex + 1).padStart(2, "0")} / ${String(visiblePhotos.length).padStart(2, "0")}`;
 }
 
@@ -253,6 +271,16 @@ fetch("photos.json")
   })
   .then((records) => {
     photos = records.map((record) => ({ ...record, ...photoDetails[record.id] }));
+    const featured = document.querySelectorAll(".feature-card");
+    featured.forEach((card) => {
+      const photo = photos.find((item) => item.id === card.dataset.photoId);
+      const label = card.querySelector(".feature-exposure");
+      if (photo && label) label.textContent = cameraSettings(photo);
+    });
+    const hero = photos.find((item) => item.id === "08");
+    if (hero) document.getElementById("hero-exposure").textContent = cameraSettings(hero);
+    const closing = photos.find((item) => item.id === "11");
+    if (closing) document.getElementById("closing-exposure").textContent = cameraSettings(closing);
     renderGallery();
   })
   .catch(() => {

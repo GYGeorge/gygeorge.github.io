@@ -30,7 +30,7 @@
 
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
-        <img class="hero-image" src="assets/photos/14.webp" alt="阳光掠过山脊，小路通往云雾中的群峰" fetchpriority="high" />
+        <img class="hero-image" src="photos/previews/08-view.webp" alt="阳光掠过山脊，小路通往云雾中的群峰" fetchpriority="high" />
         <div class="hero-shade"></div>
         <div class="hero-content">
           <div class="eyebrow"><span class="eyebrow-line"></span> A PERSONAL PHOTO JOURNAL</div>
@@ -38,7 +38,8 @@
           <p>山的轮廓、云的行进、路上的片刻。<br />从多洛米蒂出发，收藏那些想再次回看的风景。</p>
           <a class="hero-link" href="#featured">开始观看 <span aria-hidden="true">↓</span></a>
         </div>
-        <div class="hero-index"><span>01 / 19</span><span class="hero-index-rule"></span><span>DOLOMITES</span></div>
+        <div class="hero-exposure" id="hero-exposure"></div>
+        <div class="hero-index"><span>01 / 18</span><span class="hero-index-rule"></span><span>DOLOMITES</span></div>
         <div class="hero-side-note">SCROLL TO EXPLORE —</div>
       </section>
 
@@ -49,7 +50,7 @@
           <h2>有些风景，需要<br /><span>走近才能看见。</span></h2>
           <p class="intro-copy">这是一份持续整理的个人摄影档案。照片里有高山的距离，也有脚下的路；有等来的光，也有没料到的天气。</p>
         </div>
-        <div class="intro-aside"><span class="round-symbol">✳</span><span>19 张照片<br />一段旅程</span></div>
+        <div class="intro-aside"><span class="round-symbol">✳</span><span>18 张照片<br />一段旅程</span></div>
       </section>
 
       <section class="featured section-wrap" id="featured" aria-labelledby="featured-title">
@@ -58,17 +59,17 @@
           <p>光、地形与时间，刚好站在一起。</p>
         </div>
         <div class="featured-grid">
-          <button class="feature-card feature-card-large" type="button" data-photo-id="14" aria-label="查看照片：山脊上的路">
-            <img src="assets/photos/14.webp" alt="小路从近处山脊延伸至远方尖峰" loading="lazy" />
-            <span class="feature-overlay"><small>01 / MOUNTAIN</small><strong>山脊上的路</strong><span>查看照片 ↗</span></span>
+          <button class="feature-card feature-card-large" type="button" data-photo-id="08" aria-label="查看照片：山脊上的路">
+            <img src="photos/previews/08-view.webp" alt="小路从近处山脊延伸至远方尖峰" loading="lazy" />
+            <span class="feature-overlay"><small>01 / MOUNTAIN</small><strong>山脊上的路</strong><span>查看照片 ↗</span><span class="feature-exposure"></span></span>
           </button>
-          <button class="feature-card" type="button" data-photo-id="05" aria-label="查看照片：湖边的群山">
-            <img src="assets/photos/05.webp" alt="高山与湖畔建筑倒映在蓝色湖水中" loading="lazy" />
-            <span class="feature-overlay"><small>02 / WATER</small><strong>湖边的群山</strong><span>查看照片 ↗</span></span>
+          <button class="feature-card" type="button" data-photo-id="03" aria-label="查看照片：湖边的群山">
+            <img src="photos/previews/03-view.webp" alt="高山与湖畔建筑倒映在蓝色湖水中" loading="lazy" />
+            <span class="feature-overlay"><small>02 / WATER</small><strong>湖边的群山</strong><span>查看照片 ↗</span><span class="feature-exposure"></span></span>
           </button>
           <button class="feature-card" type="button" data-photo-id="18" aria-label="查看照片：星河之下">
-            <img src="assets/photos/18.webp" alt="银河升起在山谷的夜空上方" loading="lazy" />
-            <span class="feature-overlay"><small>03 / NIGHT</small><strong>星河之下</strong><span>查看照片 ↗</span></span>
+            <img src="photos/previews/18-view.webp" alt="银河升起在山谷的夜空上方" loading="lazy" />
+            <span class="feature-overlay"><small>03 / NIGHT</small><strong>星河之下</strong><span>查看照片 ↗</span><span class="feature-exposure"></span></span>
           </button>
         </div>
       </section>
@@ -85,19 +86,19 @@
         </div>
         <div class="gallery-controls">
           <div class="filter-list" role="group" aria-label="按主题筛选照片">
-            <button type="button" class="filter active" data-filter="all" aria-pressed="true">全部 <span>19</span></button>
+            <button type="button" class="filter active" data-filter="all" aria-pressed="true">全部 <span>18</span></button>
             <button type="button" class="filter" data-filter="mountain" aria-pressed="false">山峦</button>
             <button type="button" class="filter" data-filter="water" aria-pressed="false">水与云</button>
             <button type="button" class="filter" data-filter="journey" aria-pressed="false">路上</button>
             <button type="button" class="filter" data-filter="night" aria-pressed="false">夜空</button>
           </div>
-          <span class="gallery-count" id="gallery-count" aria-live="polite">19 PHOTOGRAPHS</span>
+          <span class="gallery-count" id="gallery-count" aria-live="polite">18 PHOTOGRAPHS</span>
         </div>
         <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
       </section>
 
       <section class="closing" id="about" aria-labelledby="about-title">
-        <div class="closing-image"><img src="assets/photos/06.webp" alt="山谷向远处延伸，天空下有层叠的群山" loading="lazy" /></div>
+        <div class="closing-image"><img src="photos/previews/11-view.webp" alt="山间草坡与群山之间的一间小屋" loading="lazy" /><span class="closing-exposure" id="closing-exposure"></span></div>
         <div class="closing-content">
           <p class="section-number">04 / 关于这份档案</p>
           <h2 id="about-title">继续走，<br />继续拍。</h2>
@@ -118,7 +119,7 @@
         <button id="lightbox-plus" type="button" aria-label="放大照片" disabled>+</button>
       </div>
       <button class="lightbox-arrow prev" id="lightbox-prev" type="button" aria-label="上一张照片">←</button>
-      <figure><div class="lightbox-stage" id="lightbox-stage"><img id="lightbox-image" alt="" draggable="false" /></div><figcaption><span><b id="lightbox-title"></b><small id="lightbox-file"></small></span><span id="lightbox-position"></span></figcaption></figure>
+      <figure><div class="lightbox-stage" id="lightbox-stage"><div class="lightbox-image-wrap"><img id="lightbox-image" alt="" draggable="false" /><span class="lightbox-exposure" id="lightbox-exposure"></span></div></div><figcaption><span><b id="lightbox-title"></b><small id="lightbox-file"></small><small id="lightbox-gear"></small></span><span id="lightbox-position"></span></figcaption></figure>
       <button class="lightbox-arrow next" id="lightbox-next" type="button" aria-label="下一张照片">→</button>
     </dialog>
   </body>

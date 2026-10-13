@@ -1,192 +1,308 @@
 [
   {
     "id": "01",
-    "original": "1-2.tif",
-    "src": "assets/photos/01.webp",
-    "detail": "assets/photos/01-detail.webp",
-    "thumb": "assets/photos/01-thumb.webp",
+    "original": "1-5_good.jpg",
+    "src": "photos/previews/01-view.webp",
+    "detail": "photos/previews/01-detail.webp",
+    "thumb": "photos/previews/01-thumb.webp",
     "width": 8256,
-    "height": 5504,
-    "format": "TIF"
+    "height": 5160,
+    "exposure": {
+      "shutter": "0.6 秒",
+      "aperture": "f/11",
+      "iso": 64,
+      "focalLength": "35 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
   },
   {
     "id": "02",
-    "original": "2.tif",
-    "src": "assets/photos/02.webp",
-    "detail": "assets/photos/02-detail.webp",
-    "thumb": "assets/photos/02-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "TIF"
+    "original": "DSC_0319-1.jpg",
+    "src": "photos/previews/02-view.webp",
+    "detail": "photos/previews/02-detail.webp",
+    "thumb": "photos/previews/02-thumb.webp",
+    "width": 5504,
+    "height": 8256,
+    "exposure": {
+      "shutter": null,
+      "aperture": null,
+      "iso": null,
+      "focalLength": null,
+      "camera": null,
+      "lens": null
+    }
   },
   {
     "id": "03",
-    "original": "35mm 休斯高原2 少__1.tif",
-    "src": "assets/photos/03.webp",
-    "detail": "assets/photos/03-detail.webp",
-    "thumb": "assets/photos/03-thumb.webp",
-    "width": 8308,
-    "height": 5519,
-    "format": "TIF"
+    "original": "DSC_0551_good.jpg",
+    "src": "photos/previews/03-view.webp",
+    "detail": "photos/previews/03-detail.webp",
+    "thumb": "photos/previews/03-thumb.webp",
+    "width": 7917,
+    "height": 4453,
+    "exposure": {
+      "shutter": "1/200 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "36 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
   },
   {
     "id": "04",
-    "original": "DSC_0338.NEF",
-    "src": "assets/photos/04.webp",
-    "detail": "assets/photos/04-detail.webp",
-    "thumb": "assets/photos/04-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "NEF"
+    "original": "DSC_0568_good.jpg",
+    "src": "photos/previews/04-view.webp",
+    "detail": "photos/previews/04-detail.webp",
+    "thumb": "photos/previews/04-thumb.webp",
+    "width": 7165,
+    "height": 4478,
+    "exposure": {
+      "shutter": "1/125 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "34 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
   },
   {
     "id": "05",
-    "original": "DSC_0550.NEF",
-    "src": "assets/photos/05.webp",
-    "detail": "assets/photos/05-detail.webp",
-    "thumb": "assets/photos/05-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "NEF"
+    "original": "DSC_0692_good.jpg",
+    "src": "photos/previews/05-view.webp",
+    "detail": "photos/previews/05-detail.webp",
+    "thumb": "photos/previews/05-thumb.webp",
+    "width": 8032,
+    "height": 5020,
+    "exposure": {
+      "shutter": "1/125 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "24 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
   },
   {
     "id": "06",
-    "original": "DSC_0569.NEF",
-    "src": "assets/photos/06.webp",
-    "detail": "assets/photos/06-detail.webp",
-    "thumb": "assets/photos/06-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "NEF"
+    "original": "DSC_0720_good.jpg",
+    "src": "photos/previews/06-view.webp",
+    "detail": "photos/previews/06-detail.webp",
+    "thumb": "photos/previews/06-thumb.webp",
+    "width": 7756,
+    "height": 4847,
+    "exposure": {
+      "shutter": "1/160 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "35 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
   },
   {
     "id": "07",
-    "original": "DSC_0677.NEF",
-    "src": "assets/photos/07.webp",
-    "detail": "assets/photos/07-detail.webp",
-    "thumb": "assets/photos/07-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "NEF"
+    "original": "DSC_1604_good.jpg",
+    "src": "photos/previews/07-view.webp",
+    "detail": "photos/previews/07-detail.webp",
+    "thumb": "photos/previews/07-thumb.webp",
+    "width": 7767,
+    "height": 4854,
+    "exposure": {
+      "shutter": "1/500 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "46 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
   },
   {
     "id": "08",
-    "original": "DSC_0692.NEF",
-    "src": "assets/photos/08.webp",
-    "detail": "assets/photos/08-detail.webp",
-    "thumb": "assets/photos/08-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "NEF"
+    "original": "DSC_1613_good.jpg",
+    "src": "photos/previews/08-view.webp",
+    "detail": "photos/previews/08-detail.webp",
+    "thumb": "photos/previews/08-thumb.webp",
+    "width": 8297,
+    "height": 5186,
+    "exposure": {
+      "shutter": "1/4000 秒",
+      "aperture": "f/1.8",
+      "iso": 64,
+      "focalLength": "16 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "Viltrox AF 16/1.8 Z"
+    }
   },
   {
     "id": "09",
-    "original": "DSC_0779.NEF",
-    "src": "assets/photos/09.webp",
-    "detail": "assets/photos/09-detail.webp",
-    "thumb": "assets/photos/09-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "NEF"
+    "original": "DSC_1690_good.jpg",
+    "src": "photos/previews/09-view.webp",
+    "detail": "photos/previews/09-detail.webp",
+    "thumb": "photos/previews/09-thumb.webp",
+    "width": 8425,
+    "height": 5266,
+    "exposure": {
+      "shutter": "1/500 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "100 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
   },
   {
     "id": "10",
-    "original": "DSC_1105.NEF",
-    "src": "assets/photos/10.webp",
-    "detail": "assets/photos/10-detail.webp",
-    "thumb": "assets/photos/10-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "NEF"
+    "original": "DSC_2042_good_2.jpg",
+    "src": "photos/previews/10-view.webp",
+    "detail": "photos/previews/10-detail.webp",
+    "thumb": "photos/previews/10-thumb.webp",
+    "width": 8464,
+    "height": 4761,
+    "exposure": {
+      "shutter": "1/30 秒",
+      "aperture": "f/16",
+      "iso": 64,
+      "focalLength": "24 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
   },
   {
     "id": "11",
-    "original": "DSC_1236.NEF",
-    "src": "assets/photos/11.webp",
-    "detail": "assets/photos/11-detail.webp",
-    "thumb": "assets/photos/11-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "NEF"
+    "original": "DSC_2148_good.jpg",
+    "src": "photos/previews/11-view.webp",
+    "detail": "photos/previews/11-detail.webp",
+    "thumb": "photos/previews/11-thumb.webp",
+    "width": 8397,
+    "height": 5248,
+    "exposure": {
+      "shutter": "1/320 秒",
+      "aperture": "f/6.3",
+      "iso": 64,
+      "focalLength": "60 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
   },
   {
     "id": "12",
-    "original": "DSC_1587.NEF",
-    "src": "assets/photos/12.webp",
-    "detail": "assets/photos/12-detail.webp",
-    "thumb": "assets/photos/12-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "NEF"
+    "original": "DSC_7192-1.jpg",
+    "src": "photos/previews/12-view.webp",
+    "detail": "photos/previews/12-detail.webp",
+    "thumb": "photos/previews/12-thumb.webp",
+    "width": 5504,
+    "height": 8256,
+    "exposure": {
+      "shutter": null,
+      "aperture": null,
+      "iso": null,
+      "focalLength": null,
+      "camera": null,
+      "lens": null
+    }
   },
   {
     "id": "13",
-    "original": "DSC_1589.NEF",
-    "src": "assets/photos/13.webp",
-    "detail": "assets/photos/13-detail.webp",
-    "thumb": "assets/photos/13-thumb.webp",
+    "original": "DSC_7357-2.jpg",
+    "src": "photos/previews/13-view.webp",
+    "detail": "photos/previews/13-detail.webp",
+    "thumb": "photos/previews/13-thumb.webp",
     "width": 8256,
     "height": 5504,
-    "format": "NEF"
+    "exposure": {
+      "shutter": null,
+      "aperture": null,
+      "iso": null,
+      "focalLength": null,
+      "camera": null,
+      "lens": null
+    }
   },
   {
     "id": "14",
-    "original": "DSC_1613.NEF",
-    "src": "assets/photos/14.webp",
-    "detail": "assets/photos/14-detail.webp",
-    "thumb": "assets/photos/14-thumb.webp",
+    "original": "DSC_7832-1.jpg",
+    "src": "photos/previews/14-view.webp",
+    "detail": "photos/previews/14-detail.webp",
+    "thumb": "photos/previews/14-thumb.webp",
     "width": 8256,
     "height": 5504,
-    "format": "NEF"
+    "exposure": {
+      "shutter": null,
+      "aperture": null,
+      "iso": null,
+      "focalLength": null,
+      "camera": null,
+      "lens": null
+    }
   },
   {
     "id": "15",
-    "original": "DSC_1710.NEF",
-    "src": "assets/photos/15.webp",
-    "detail": "assets/photos/15-detail.webp",
-    "thumb": "assets/photos/15-thumb.webp",
-    "width": 5504,
-    "height": 8256,
-    "format": "NEF"
+    "original": "DSC_8018-3.jpg",
+    "src": "photos/previews/15-view.webp",
+    "detail": "photos/previews/15-detail.webp",
+    "thumb": "photos/previews/15-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": null,
+      "aperture": null,
+      "iso": null,
+      "focalLength": null,
+      "camera": null,
+      "lens": null
+    }
   },
   {
     "id": "16",
-    "original": "DSC_1717.NEF",
-    "src": "assets/photos/16.webp",
-    "detail": "assets/photos/16-detail.webp",
-    "thumb": "assets/photos/16-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "NEF"
+    "original": "DSC_9502_ig.jpg",
+    "src": "photos/previews/16-view.webp",
+    "detail": "photos/previews/16-detail.webp",
+    "thumb": "photos/previews/16-thumb.webp",
+    "width": 8408,
+    "height": 4729,
+    "exposure": {
+      "shutter": "1/13 秒",
+      "aperture": "f/5.6",
+      "iso": 64,
+      "focalLength": "67 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
   },
   {
     "id": "17",
-    "original": "DSC_2148.NEF",
-    "src": "assets/photos/17.webp",
-    "detail": "assets/photos/17-detail.webp",
-    "thumb": "assets/photos/17-thumb.webp",
+    "original": "DSC_9503.jpg",
+    "src": "photos/previews/17-view.webp",
+    "detail": "photos/previews/17-detail.webp",
+    "thumb": "photos/previews/17-thumb.webp",
     "width": 8256,
     "height": 5504,
-    "format": "NEF"
+    "exposure": {
+      "shutter": null,
+      "aperture": null,
+      "iso": null,
+      "focalLength": null,
+      "camera": null,
+      "lens": null
+    }
   },
   {
     "id": "18",
-    "original": "output1.tif",
-    "src": "assets/photos/18.webp",
-    "detail": "assets/photos/18-detail.webp",
-    "thumb": "assets/photos/18-thumb.webp",
+    "original": "output1_good.jpg",
+    "src": "photos/previews/18-view.webp",
+    "detail": "photos/previews/18-detail.webp",
+    "thumb": "photos/previews/18-thumb.webp",
     "width": 8288,
     "height": 5520,
-    "format": "TIF"
-  },
-  {
-    "id": "19",
-    "original": "刀锋山堆栈__1.tif",
-    "src": "assets/photos/19.webp",
-    "detail": "assets/photos/19-detail.webp",
-    "thumb": "assets/photos/19-thumb.webp",
-    "width": 8256,
-    "height": 5504,
-    "format": "TIF"
+    "exposure": {
+      "shutter": "200 秒",
+      "aperture": "f/1.8",
+      "iso": 3200,
+      "focalLength": "16 mm",
+      "camera": "Z 7_2",
+      "lens": "Viltrox AF 16/1.8 Z"
+    }
   }
 ]
