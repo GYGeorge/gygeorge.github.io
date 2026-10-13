@@ -1,0 +1,192 @@
+[
+  {
+    "id": "01",
+    "original": "1-2.tif",
+    "src": "assets/photos/01.webp",
+    "detail": "assets/photos/01-detail.webp",
+    "thumb": "assets/photos/01-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "TIF"
+  },
+  {
+    "id": "02",
+    "original": "2.tif",
+    "src": "assets/photos/02.webp",
+    "detail": "assets/photos/02-detail.webp",
+    "thumb": "assets/photos/02-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "TIF"
+  },
+  {
+    "id": "03",
+    "original": "35mm 休斯高原2 少__1.tif",
+    "src": "assets/photos/03.webp",
+    "detail": "assets/photos/03-detail.webp",
+    "thumb": "assets/photos/03-thumb.webp",
+    "width": 8308,
+    "height": 5519,
+    "format": "TIF"
+  },
+  {
+    "id": "04",
+    "original": "DSC_0338.NEF",
+    "src": "assets/photos/04.webp",
+    "detail": "assets/photos/04-detail.webp",
+    "thumb": "assets/photos/04-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "05",
+    "original": "DSC_0550.NEF",
+    "src": "assets/photos/05.webp",
+    "detail": "assets/photos/05-detail.webp",
+    "thumb": "assets/photos/05-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "06",
+    "original": "DSC_0569.NEF",
+    "src": "assets/photos/06.webp",
+    "detail": "assets/photos/06-detail.webp",
+    "thumb": "assets/photos/06-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "07",
+    "original": "DSC_0677.NEF",
+    "src": "assets/photos/07.webp",
+    "detail": "assets/photos/07-detail.webp",
+    "thumb": "assets/photos/07-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "08",
+    "original": "DSC_0692.NEF",
+    "src": "assets/photos/08.webp",
+    "detail": "assets/photos/08-detail.webp",
+    "thumb": "assets/photos/08-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "09",
+    "original": "DSC_0779.NEF",
+    "src": "assets/photos/09.webp",
+    "detail": "assets/photos/09-detail.webp",
+    "thumb": "assets/photos/09-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "10",
+    "original": "DSC_1105.NEF",
+    "src": "assets/photos/10.webp",
+    "detail": "assets/photos/10-detail.webp",
+    "thumb": "assets/photos/10-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "11",
+    "original": "DSC_1236.NEF",
+    "src": "assets/photos/11.webp",
+    "detail": "assets/photos/11-detail.webp",
+    "thumb": "assets/photos/11-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "12",
+    "original": "DSC_1587.NEF",
+    "src": "assets/photos/12.webp",
+    "detail": "assets/photos/12-detail.webp",
+    "thumb": "assets/photos/12-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "13",
+    "original": "DSC_1589.NEF",
+    "src": "assets/photos/13.webp",
+    "detail": "assets/photos/13-detail.webp",
+    "thumb": "assets/photos/13-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "14",
+    "original": "DSC_1613.NEF",
+    "src": "assets/photos/14.webp",
+    "detail": "assets/photos/14-detail.webp",
+    "thumb": "assets/photos/14-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "15",
+    "original": "DSC_1710.NEF",
+    "src": "assets/photos/15.webp",
+    "detail": "assets/photos/15-detail.webp",
+    "thumb": "assets/photos/15-thumb.webp",
+    "width": 5504,
+    "height": 8256,
+    "format": "NEF"
+  },
+  {
+    "id": "16",
+    "original": "DSC_1717.NEF",
+    "src": "assets/photos/16.webp",
+    "detail": "assets/photos/16-detail.webp",
+    "thumb": "assets/photos/16-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "17",
+    "original": "DSC_2148.NEF",
+    "src": "assets/photos/17.webp",
+    "detail": "assets/photos/17-detail.webp",
+    "thumb": "assets/photos/17-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "NEF"
+  },
+  {
+    "id": "18",
+    "original": "output1.tif",
+    "src": "assets/photos/18.webp",
+    "detail": "assets/photos/18-detail.webp",
+    "thumb": "assets/photos/18-thumb.webp",
+    "width": 8288,
+    "height": 5520,
+    "format": "TIF"
+  },
+  {
+    "id": "19",
+    "original": "刀锋山堆栈__1.tif",
+    "src": "assets/photos/19.webp",
+    "detail": "assets/photos/19-detail.webp",
+    "thumb": "assets/photos/19-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "format": "TIF"
+  }
+]

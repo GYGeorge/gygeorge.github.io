@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#141714" />
+    <meta name="description" content="山与光，一份关于山峦、云雾、旅途与夜空的个人摄影作品集。" />
+    <title>山与光 · 个人摄影作品集</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到内容</a>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark" aria-hidden="true">△</span>
+        <span>山与光</span>
+        <small>FIELD NOTES</small>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#featured">精选</a>
+        <a href="#archive">照片索引</a>
+        <a href="#about">关于</a>
+      </nav>
+      <a class="header-action" href="#archive">浏览作品 <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/photos/14.webp" alt="阳光掠过山脊，小路通往云雾中的群峰" fetchpriority="high" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <div class="eyebrow"><span class="eyebrow-line"></span> A PERSONAL PHOTO JOURNAL</div>
+          <h1 id="hero-title">走进山里，<br /><em>等一束光。</em></h1>
+          <p>山的轮廓、云的行进、路上的片刻。<br />从多洛米蒂出发，收藏那些想再次回看的风景。</p>
+          <a class="hero-link" href="#featured">开始观看 <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-index"><span>01 / 19</span><span class="hero-index-rule"></span><span>DOLOMITES</span></div>
+        <div class="hero-side-note">SCROLL TO EXPLORE —</div>
+      </section>
+
+      <section class="intro section-wrap" aria-label="作品简介">
+        <div class="section-number">01 / 前言</div>
+        <div class="intro-body">
+          <p class="intro-kicker">在路上 · ON THE WAY</p>
+          <h2>有些风景，需要<br /><span>走近才能看见。</span></h2>
+          <p class="intro-copy">这是一份持续整理的个人摄影档案。照片里有高山的距离，也有脚下的路；有等来的光，也有没料到的天气。</p>
+        </div>
+        <div class="intro-aside"><span class="round-symbol">✳</span><span>19 张照片<br />一段旅程</span></div>
+      </section>
+
+      <section class="featured section-wrap" id="featured" aria-labelledby="featured-title">
+        <div class="section-heading">
+          <div><p class="section-number">02 / 精选画面</p><h2 id="featured-title">先看这几张<span class="period">。</span></h2></div>
+          <p>光、地形与时间，刚好站在一起。</p>
+        </div>
+        <div class="featured-grid">
+          <button class="feature-card feature-card-large" type="button" data-photo-id="14" aria-label="查看照片：山脊上的路">
+            <img src="assets/photos/14.webp" alt="小路从近处山脊延伸至远方尖峰" loading="lazy" />
+            <span class="feature-overlay"><small>01 / MOUNTAIN</small><strong>山脊上的路</strong><span>查看照片 ↗</span></span>
+          </button>
+          <button class="feature-card" type="button" data-photo-id="05" aria-label="查看照片：湖边的群山">
+            <img src="assets/photos/05.webp" alt="高山与湖畔建筑倒映在蓝色湖水中" loading="lazy" />
+            <span class="feature-overlay"><small>02 / WATER</small><strong>湖边的群山</strong><span>查看照片 ↗</span></span>
+          </button>
+          <button class="feature-card" type="button" data-photo-id="18" aria-label="查看照片：星河之下">
+            <img src="assets/photos/18.webp" alt="银河升起在山谷的夜空上方" loading="lazy" />
+            <span class="feature-overlay"><small>03 / NIGHT</small><strong>星河之下</strong><span>查看照片 ↗</span></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="quote-band" aria-label="摄影笔记">
+        <p>“风景真正打动人的时候，<br />往往不在按下快门的那一刻。”</p>
+        <span>PHOTO NOTES · DOLOMITES</span>
+      </section>
+
+      <section class="archive section-wrap" id="archive" aria-labelledby="archive-title">
+        <div class="section-heading archive-heading">
+          <div><p class="section-number">03 / 照片索引</p><h2 id="archive-title">全部作品<span class="period">。</span></h2></div>
+          <p>按主题浏览。打开照片后可按需加载高清细节，拖动查看局部。</p>
+        </div>
+        <div class="gallery-controls">
+          <div class="filter-list" role="group" aria-label="按主题筛选照片">
+            <button type="button" class="filter active" data-filter="all" aria-pressed="true">全部 <span>19</span></button>
+            <button type="button" class="filter" data-filter="mountain" aria-pressed="false">山峦</button>
+            <button type="button" class="filter" data-filter="water" aria-pressed="false">水与云</button>
+            <button type="button" class="filter" data-filter="journey" aria-pressed="false">路上</button>
+            <button type="button" class="filter" data-filter="night" aria-pressed="false">夜空</button>
+          </div>
+          <span class="gallery-count" id="gallery-count" aria-live="polite">19 PHOTOGRAPHS</span>
+        </div>
+        <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="closing" id="about" aria-labelledby="about-title">
+        <div class="closing-image"><img src="assets/photos/06.webp" alt="山谷向远处延伸，天空下有层叠的群山" loading="lazy" /></div>
+        <div class="closing-content">
+          <p class="section-number">04 / 关于这份档案</p>
+          <h2 id="about-title">继续走，<br />继续拍。</h2>
+          <p>这里记录旅途中值得停下来的画面。照片会随着新的行程慢慢增加；这一页，从多洛米蒂开始。</p>
+          <a href="#top">回到顶部 <span aria-hidden="true">↑</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>山与光 <i>✳</i> 个人摄影作品集</span><span>MADE FOR THE MOMENTS BETWEEN DESTINATIONS</span><a href="#top">BACK TO TOP ↑</a></footer>
+
+    <dialog class="lightbox" id="lightbox" aria-label="照片大图">
+      <button class="lightbox-close" id="lightbox-close" type="button" aria-label="关闭大图">×</button>
+      <div class="lightbox-tools" aria-label="照片缩放控制">
+        <button id="lightbox-zoom" type="button" aria-pressed="false">查看细节</button>
+        <button id="lightbox-minus" type="button" aria-label="缩小照片" disabled>−</button>
+        <span id="lightbox-zoom-level" aria-live="polite">适应屏幕</span>
+        <button id="lightbox-plus" type="button" aria-label="放大照片" disabled>+</button>
+      </div>
+      <button class="lightbox-arrow prev" id="lightbox-prev" type="button" aria-label="上一张照片">←</button>
+      <figure><div class="lightbox-stage" id="lightbox-stage"><img id="lightbox-image" alt="" draggable="false" /></div><figcaption><span><b id="lightbox-title"></b><small id="lightbox-file"></small></span><span id="lightbox-position"></span></figcaption></figure>
+      <button class="lightbox-arrow next" id="lightbox-next" type="button" aria-label="下一张照片">→</button>
+    </dialog>
+  </body>
+</html>

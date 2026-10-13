@@ -1,0 +1,17 @@
+# Originals stay on this computer; GitHub Pages uses the small WebP previews.
+*.NEF
+*.nef
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+/*.jpg
+/*.jpeg
+/*.png
+/*.JPG
+/*.JPEG
+/*.PNG
+/exports/
+_contact.jpg
+dist/
+__pycache__/
