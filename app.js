@@ -36,6 +36,7 @@ const albumOverview = document.getElementById("album-overview");
 const albumGallery = document.getElementById("album-gallery");
 const albumMenu = document.getElementById("collection-menu");
 const albumMenuList = document.getElementById("album-menu-list");
+const homeGallery = document.getElementById("home-gallery");
 const dialog = document.getElementById("lightbox");
 const lightboxImage = document.getElementById("lightbox-image");
 const lightboxStage = document.getElementById("lightbox-stage");
@@ -175,7 +176,7 @@ function renderAlbumMenu() {
     const title = document.createElement("span");
     title.textContent = albumDetails[album]?.title || album;
     const note = document.createElement("small");
-    note.textContent = `${album} · ${photos.filter((photo) => photo.album === album).length} 张`;
+    note.textContent = `${photos.filter((photo) => photo.album === album).length} 张`;
     link.append(title, note);
     return link;
   });
@@ -232,6 +233,59 @@ function renderCollection() {
   for (const link of albumMenuList.querySelectorAll("a")) {
     if (link.getAttribute("href") === albumHref(active)) link.setAttribute("aria-current", "page");
   }
+}
+
+function renderHomeGallery() {
+  if (!homeGallery) return;
+  const order = (homeGallery.dataset.photoOrder || "").split(" ");
+  const byId = new Map(photos.map((photo) => [photo.id, photo]));
+  const ordered = order.map((id) => byId.get(id)).filter(Boolean);
+  if (!ordered.length) return;
+  visiblePhotos = ordered;
+  let lastWidth = 0;
+  const layout = () => {
+    const width = homeGallery.clientWidth;
+    if (!width || Math.abs(width - lastWidth) < 1) return;
+    lastWidth = width;
+    const gap = width <= 650 ? 4 : 6;
+    const targetHeight = width <= 650 ? width / 1.65 : width / 3.1;
+    const rows = [];
+    let index = 0;
+    while (index < ordered.length) {
+      const row = document.createElement("div");
+      row.className = "photo-row";
+      let ratio = 0;
+      let size = 0;
+      while (index < ordered.length) {
+        const photo = ordered[index];
+        const nextRatio = photo.width / photo.height;
+        if (size && Math.abs((width - gap * (size - 1)) / ratio - targetHeight)
+          <= Math.abs((width - gap * size) / (ratio + nextRatio) - targetHeight)) break;
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "home-photo";
+        button.style.flexGrow = nextRatio;
+        button.setAttribute("aria-label", `查看照片：${photo.title}`);
+        const image = document.createElement("img");
+        image.src = photo.src;
+        image.alt = photo.alt;
+        image.width = photo.width;
+        image.height = photo.height;
+        image.loading = index < 3 ? "eager" : "lazy";
+        image.decoding = "async";
+        button.append(image);
+        button.addEventListener("click", () => openPhoto(photo.id, button));
+        row.append(button);
+        ratio += nextRatio;
+        size++;
+        index++;
+      }
+      rows.push(row);
+    }
+    homeGallery.replaceChildren(...rows);
+  };
+  layout();
+  new ResizeObserver(layout).observe(homeGallery);
 }
 
 function showPhoto(index) {
@@ -378,7 +432,9 @@ Promise.all(["photos.json", "collection_config.json"].map((path) =>
     renderAlbumMenu();
     renderAlbumCards();
     renderCollection();
+    renderHomeGallery();
   })
   .catch(() => {
-    document.getElementById("archive-description").textContent = "照片暂时无法加载";
+    const description = document.getElementById("archive-description");
+    if (description) description.textContent = "照片暂时无法加载";
   });

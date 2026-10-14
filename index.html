@@ -3,25 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#141714" />
-    <meta name="description" content="山与光，一份关于山峦、海岸、城市、舷窗与夜空的个人摄影作品集。" />
-    <title>山与光 · 个人摄影作品集</title>
+    <meta name="theme-color" content="#e1d6c9" />
+    <meta name="description" content="gao yuan" />
+    <title>gao yuan</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=20261014-pages" />
-    <script src="app.js?v=20261014-pages" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20261014-wall" />
+    <script src="app.js?v=20261014-wall" defer></script>
   </head>
-  <body>
+  <body class="home-page">
     <a class="skip-link" href="#main">跳到内容</a>
-    <header class="site-header" id="top">
-      <a class="brand" href="#top" aria-label="返回首页">
-        <span class="brand-mark" aria-hidden="true">△</span>
-        <span>山与光</span>
-        <small>FIELD NOTES</small>
-      </a>
+    <header class="site-header minimal-header">
+      <h1 class="site-name"><a href="./">gao yuan</a></h1>
       <nav class="main-nav" aria-label="主导航">
-        <a href="#top">首页</a>
         <details class="collection-menu" id="collection-menu">
           <summary>作品集</summary>
           <div class="collection-menu-list" id="album-menu-list"><a href="collections/budapest/"><span>布达佩斯</span><small>11 张</small></a>
@@ -31,112 +26,34 @@
 <a href="collections/from-plane/"><span>舷窗之外</span><small>9 张</small></a>
 <a href="collections/all/"><span>全部照片</span><small>63 张</small></a></div>
         </details>
-        <a href="#about">关于</a>
       </nav>
-      <a class="header-action" href="#archive">浏览作品 <span aria-hidden="true">↗</span></a>
     </header>
-
-    <main id="main">
-      <section class="hero" aria-labelledby="hero-title">
-        <img class="hero-image" src="photos/previews/original/08-view.webp" alt="阳光掠过山脊，小路通往云雾中的群峰" fetchpriority="high" />
-        <div class="hero-shade"></div>
-        <div class="hero-content">
-          <div class="eyebrow"><span class="eyebrow-line"></span> A PERSONAL PHOTO JOURNAL</div>
-          <h1 id="hero-title">走进山里，<br /><em>等一束光。</em></h1>
-          <p>山的轮廓、云的行进、路上的片刻。<br />从多洛米蒂出发，收藏那些想再次回看的风景。</p>
-          <a class="hero-link" href="#featured">开始观看 <span aria-hidden="true">↓</span></a>
-        </div>
-        <div class="hero-exposure" id="hero-exposure"></div>
-        <div class="hero-index"><span>01 / <span id="hero-total">05</span></span><span class="hero-index-rule"></span><span>COLLECTIONS</span></div>
-        <div class="hero-side-note">SCROLL TO EXPLORE —</div>
-      </section>
-
-      <section class="intro section-wrap" aria-label="作品简介">
-        <div class="section-number">01 / 前言</div>
-        <div class="intro-body">
-          <p class="intro-kicker">在路上 · ON THE WAY</p>
-          <h2>有些风景，需要<br /><span>走近才能看见。</span></h2>
-          <p class="intro-copy">这是一份持续整理的个人摄影档案。从高山到海岸，从城市到舷窗外的云，每个系列都留下一段值得回看的路。</p>
-        </div>
-        <div class="intro-aside"><span class="round-symbol">✳</span><span id="intro-stats">63 张照片<br />5 个系列</span></div>
-      </section>
-
-      <section class="featured section-wrap" id="featured" aria-labelledby="featured-title">
-        <div class="section-heading">
-          <div><p class="section-number">02 / 精选画面</p><h2 id="featured-title">先看这几张<span class="period">。</span></h2></div>
-          <p>光、地形与时间，刚好站在一起。</p>
-        </div>
-        <div class="featured-grid">
-          <button class="feature-card feature-card-large" type="button" data-photo-id="08" aria-label="查看照片：山脊上的路">
-            <img src="photos/previews/original/08-view.webp" alt="小路从近处山脊延伸至远方尖峰" loading="lazy" />
-            <span class="feature-overlay"><small>01 / MOUNTAIN</small><strong>山脊上的路</strong><span>查看照片 ↗</span><span class="feature-exposure"></span></span>
-          </button>
-          <button class="feature-card" type="button" data-photo-id="03" aria-label="查看照片：湖边的群山">
-            <img src="photos/previews/original/03-view.webp" alt="高山与湖畔建筑倒映在蓝色湖水中" loading="lazy" />
-            <span class="feature-overlay"><small>02 / WATER</small><strong>湖边的群山</strong><span>查看照片 ↗</span><span class="feature-exposure"></span></span>
-          </button>
-          <button class="feature-card" type="button" data-photo-id="18" aria-label="查看照片：星河之下">
-            <img src="photos/previews/original/18-view.webp" alt="银河升起在山谷的夜空上方" loading="lazy" />
-            <span class="feature-overlay"><small>03 / NIGHT</small><strong>星河之下</strong><span>查看照片 ↗</span><span class="feature-exposure"></span></span>
-          </button>
-        </div>
-      </section>
-
-      <section class="quote-band" aria-label="摄影笔记">
-        <p>“风景真正打动人的时候，<br />往往不在按下快门的那一刻。”</p>
-        <span>PHOTO NOTES · DOLOMITES</span>
-      </section>
-
-      <section class="archive section-wrap" id="archive" aria-labelledby="archive-title">
-        <div class="section-heading archive-heading">
-          <div><p class="section-number">03 / 作品集</p><h2 id="archive-title">按系列观看<span class="period">。</span></h2></div>
-          <p id="archive-description">每一个文件夹，都是一段旅程。打开系列后，可按需加载高清细节。</p>
-        </div>
-        <div id="album-overview">
-          <div class="album-grid" id="album-grid"><a class="album-card" data-album="budapest" href="collections/budapest/">
-          <img src="photos/previews/budapest/01-view.webp" alt="布达佩斯" loading="lazy" />
-          <span class="album-card-content"><small>01 / budapest</small><strong>布达佩斯</strong>
-          <span>城市的天空、河岸与驶过的电车。</span><em>11 张照片 ↗</em></span></a>
-<a class="album-card" data-album="germany" href="collections/germany/">
-          <img src="photos/previews/germany/10-view.webp" alt="德国" loading="lazy" />
-          <span class="album-card-content"><small>02 / germany</small><strong>德国</strong>
-          <span>旧城的街道与河畔从白昼走向夜晚。</span><em>13 张照片 ↗</em></span></a>
-<a class="album-card" data-album="Italy" href="collections/italy/">
-          <img src="photos/previews/Italy/01-view.webp" alt="意大利" loading="lazy" />
-          <span class="album-card-content"><small>03 / Italy</small><strong>意大利</strong>
-          <span>沿着海岸线，收集海风、船只与蓝色。</span><em>12 张照片 ↗</em></span></a>
-<a class="album-card" data-album="original" href="collections/landscapes/">
-          <img src="photos/previews/original/08-view.webp" alt="山水风光" loading="lazy" />
-          <span class="album-card-content"><small>04 / original</small><strong>山水风光</strong>
-          <span>山峦、云雾、湖泊与路上的片刻。</span><em>18 张照片 ↗</em></span></a>
-<a class="album-card" data-album="from_plane" href="collections/from-plane/">
-          <img src="photos/previews/from_plane/04-view.webp" alt="舷窗之外" loading="lazy" />
-          <span class="album-card-content"><small>05 / from_plane</small><strong>舷窗之外</strong>
-          <span>从飞机的窗口，重新看见山脉和云。</span><em>9 张照片 ↗</em></span></a></div>
-          <a class="all-photos-link" href="collections/all/">浏览全部照片 <span aria-hidden="true">↗</span></a>
-        </div>
-        <div id="album-gallery" hidden>
-          <div class="album-gallery-top">
-            <a href="./#archive" class="album-back">← 全部系列</a>
-            <span class="gallery-count" id="gallery-count" aria-live="polite"></span>
-          </div>
-          <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
-        </div>
-      </section>
-
-      <section class="closing" id="about" aria-labelledby="about-title">
-        <div class="closing-image"><img src="photos/previews/original/11-view.webp" alt="山间草坡与群山之间的一间小屋" loading="lazy" /><span class="closing-exposure" id="closing-exposure"></span></div>
-        <div class="closing-content">
-          <p class="section-number">04 / 关于这份档案</p>
-          <h2 id="about-title">继续走，<br />继续拍。</h2>
-          <p>这里记录旅途中值得停下来的画面。从山峦、海岸到城市与舷窗之外，照片会随着新的行程慢慢增加。</p>
-          <a href="#top">回到顶部 <span aria-hidden="true">↑</span></a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer"><span>山与光 <i>✳</i> 个人摄影作品集</span><span>MADE FOR THE MOMENTS BETWEEN DESTINATIONS</span><a href="#top">BACK TO TOP ↑</a></footer>
-
+    <main id="main"><!-- HOME-GALLERY-START --><div class="home-gallery" id="home-gallery" aria-label="摄影作品" data-photo-order="germany-03 08 from_plane-04 01 Italy-08 germany-13 budapest-01 germany-10 03 04 05 Italy-01 18 budapest-10 16 11 12 Italy-10 09 budapest-02 germany-01 Italy-02 02 from_plane-01 budapest-03 germany-02 Italy-03 06 from_plane-02 budapest-04 germany-04 Italy-04 07 from_plane-03 budapest-05 germany-05 Italy-05 10 from_plane-05 budapest-06 germany-06 Italy-06 13 from_plane-06 budapest-07 germany-07 Italy-07 14 from_plane-07 budapest-08 germany-08 Italy-09 15 from_plane-08 budapest-09 germany-09 Italy-11 17 from_plane-09 budapest-11 germany-11 Italy-12 germany-12"><div class="photo-row"><a class="home-photo" href="photos/previews/germany/03-detail.webp" style="flex-grow:0.666667"><img src="photos/previews/germany/03-view.webp" alt="20260708-DSC_8528" width="5504" height="8256" loading="eager" decoding="async" /></a><a class="home-photo" href="photos/previews/original/08-detail.webp" style="flex-grow:1.599884"><img src="photos/previews/original/08-view.webp" alt="DSC_1613_good" width="8297" height="5186" loading="eager" decoding="async" /></a><a class="home-photo" href="photos/previews/from_plane/04-detail.webp" style="flex-grow:0.666667"><img src="photos/previews/from_plane/04-view.webp" alt="DSC_3884_ig" width="5084" height="7626" loading="eager" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/original/01-detail.webp" style="flex-grow:1.600000"><img src="photos/previews/original/01-view.webp" alt="1-5_good" width="8256" height="5160" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/Italy/08-detail.webp" style="flex-grow:0.666667"><img src="photos/previews/Italy/08-view.webp" alt="DSC_4524" width="5504" height="8256" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/13-detail.webp" style="flex-grow:0.666667"><img src="photos/previews/germany/13-view.webp" alt="20260712-DSC_8896" width="5504" height="8256" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/budapest/01-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/01-view.webp" alt="DSC_0053-1" width="6954" height="4636" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/10-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/germany/10-view.webp" alt="20260710-DSC_8736" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/original/03-detail.webp" style="flex-grow:1.777903"><img src="photos/previews/original/03-view.webp" alt="DSC_0551_good" width="7917" height="4453" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/04-detail.webp" style="flex-grow:1.600045"><img src="photos/previews/original/04-view.webp" alt="DSC_0568_good" width="7165" height="4478" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/original/05-detail.webp" style="flex-grow:1.600000"><img src="photos/previews/original/05-view.webp" alt="DSC_0692_good" width="8032" height="5020" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/Italy/01-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/Italy/01-view.webp" alt="DSC_4103" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/original/18-detail.webp" style="flex-grow:1.501449"><img src="photos/previews/original/18-view.webp" alt="output1_good" width="8288" height="5520" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/budapest/10-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/10-view.webp" alt="DSC_9193_ig" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/original/16-detail.webp" style="flex-grow:1.777966"><img src="photos/previews/original/16-view.webp" alt="DSC_9502_ig" width="8408" height="4729" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/11-detail.webp" style="flex-grow:1.600038"><img src="photos/previews/original/11-view.webp" alt="DSC_2148_good" width="8397" height="5248" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/original/12-detail.webp" style="flex-grow:0.666667"><img src="photos/previews/original/12-view.webp" alt="DSC_7192-1" width="5504" height="8256" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/Italy/10-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/Italy/10-view.webp" alt="DSC_4543" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/09-detail.webp" style="flex-grow:1.599886"><img src="photos/previews/original/09-view.webp" alt="DSC_1690_good" width="8425" height="5266" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/budapest/02-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/02-view.webp" alt="DSC_8213" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/01-detail.webp" style="flex-grow:1.600000"><img src="photos/previews/germany/01-view.webp" alt="20260707-DSC_8443" width="8256" height="5160" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/Italy/02-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/Italy/02-view.webp" alt="DSC_4112" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/02-detail.webp" style="flex-grow:0.666667"><img src="photos/previews/original/02-view.webp" alt="DSC_0319-1" width="5504" height="8256" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/from_plane/01-detail.webp" style="flex-grow:0.666576"><img src="photos/previews/from_plane/01-view.webp" alt="DSC_3862_ig" width="4926" height="7390" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/budapest/03-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/03-view.webp" alt="DSC_8214" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/02-detail.webp" style="flex-grow:1.500097"><img src="photos/previews/germany/02-view.webp" alt="20260708-DSC_8488" width="7709" height="5139" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/Italy/03-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/Italy/03-view.webp" alt="DSC_4146" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/06-detail.webp" style="flex-grow:1.600165"><img src="photos/previews/original/06-view.webp" alt="DSC_0720_good" width="7756" height="4847" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/from_plane/02-detail.webp" style="flex-grow:0.666621"><img src="photos/previews/from_plane/02-view.webp" alt="DSC_3871_ig" width="4877" height="7316" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/budapest/04-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/04-view.webp" alt="DSC_8217" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/04-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/germany/04-view.webp" alt="20260710-DSC_8594" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/Italy/04-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/Italy/04-view.webp" alt="DSC_4249" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/07-detail.webp" style="flex-grow:1.600124"><img src="photos/previews/original/07-view.webp" alt="DSC_1604_good" width="7767" height="4854" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/from_plane/03-detail.webp" style="flex-grow:0.666667"><img src="photos/previews/from_plane/03-view.webp" alt="DSC_3883_ig" width="5504" height="8256" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/budapest/05-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/05-view.webp" alt="DSC_9169_ig_1" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/05-detail.webp" style="flex-grow:0.666667"><img src="photos/previews/germany/05-view.webp" alt="20260710-DSC_8595" width="5504" height="8256" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/Italy/05-detail.webp" style="flex-grow:1.500092"><img src="photos/previews/Italy/05-view.webp" alt="DSC_4320" width="8183" height="5455" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/10-detail.webp" style="flex-grow:1.777778"><img src="photos/previews/original/10-view.webp" alt="DSC_2042_good_2" width="8464" height="4761" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/from_plane/05-detail.webp" style="flex-grow:0.666621"><img src="photos/previews/from_plane/05-view.webp" alt="DSC_3886_ig" width="4863" height="7295" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/budapest/06-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/06-view.webp" alt="DSC_9171_ig" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/06-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/germany/06-view.webp" alt="20260710-DSC_8597" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/Italy/06-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/Italy/06-view.webp" alt="DSC_4471" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/13-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/original/13-view.webp" alt="DSC_7357-2" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/from_plane/06-detail.webp" style="flex-grow:0.666755"><img src="photos/previews/from_plane/06-view.webp" alt="DSC_3891_ig" width="5050" height="7574" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/budapest/07-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/07-view.webp" alt="DSC_9172_ig" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/07-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/germany/07-view.webp" alt="20260710-DSC_8601" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/Italy/07-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/Italy/07-view.webp" alt="DSC_4478" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/14-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/original/14-view.webp" alt="DSC_7832-1" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/from_plane/07-detail.webp" style="flex-grow:0.666619"><img src="photos/previews/from_plane/07-view.webp" alt="DSC_3892_ig" width="4705" height="7058" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/budapest/08-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/08-view.webp" alt="DSC_9176_ig" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/08-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/germany/08-view.webp" alt="20260710-DSC_8641-HDR-2" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/Italy/09-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/Italy/09-view.webp" alt="DSC_4527" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/15-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/original/15-view.webp" alt="DSC_8018-3" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/from_plane/08-detail.webp" style="flex-grow:0.666621"><img src="photos/previews/from_plane/08-view.webp" alt="DSC_3893_ig" width="4825" height="7238" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/budapest/09-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/09-view.webp" alt="DSC_9188_ig" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/09-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/germany/09-view.webp" alt="20260710-DSC_8644-HDR-2" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/Italy/11-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/Italy/11-view.webp" alt="DSC_4544" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/original/17-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/original/17-view.webp" alt="DSC_9503" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/from_plane/09-detail.webp" style="flex-grow:0.666667"><img src="photos/previews/from_plane/09-view.webp" alt="DSC_3901_ig" width="5504" height="8256" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/budapest/11-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/budapest/11-view.webp" alt="DSC_9196_ig" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/11-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/germany/11-view.webp" alt="20260712-DSC_8817" width="8256" height="5504" loading="lazy" decoding="async" /></a></div>
+<div class="photo-row"><a class="home-photo" href="photos/previews/Italy/12-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/Italy/12-view.webp" alt="DSC_4544_1" width="8256" height="5504" loading="lazy" decoding="async" /></a><a class="home-photo" href="photos/previews/germany/12-detail.webp" style="flex-grow:1.500000"><img src="photos/previews/germany/12-view.webp" alt="20260712-DSC_8892" width="8256" height="5504" loading="lazy" decoding="async" /></a></div></div><!-- HOME-GALLERY-END --></main>
     <dialog class="lightbox" id="lightbox" aria-label="照片大图">
       <button class="lightbox-close" id="lightbox-close" type="button" aria-label="关闭大图">×</button>
       <div class="lightbox-tools" aria-label="照片缩放控制">

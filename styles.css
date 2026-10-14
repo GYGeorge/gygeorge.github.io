@@ -57,3 +57,18 @@
 .album-back:hover{color:var(--ink)}
 @media(max-width:950px){.album-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.main-nav{gap:.9rem}.main-nav a,.collection-menu summary{font-size:.7rem}.collection-menu-list{top:calc(100% + 1.4rem);right:-2.2rem}.album-grid{grid-template-columns:1fr}.album-card{min-height:290px}.album-card-content{padding:1.3rem}}
+
+/* Minimal nameplate and an uncropped, justified photograph wall. */
+.home-page{background:#e1d6c9;color:#a1734f}
+.home-page .minimal-header,.collection-page .minimal-header{position:relative;inset:auto;height:auto;min-height:94px;padding:20px 26px;border:0;background:#e1d6c9;color:#a1734f;gap:1rem}
+.site-name{margin:0;font-family:var(--sans);font-size:clamp(2rem,3.8vw,3rem);font-weight:500;line-height:1;letter-spacing:-.045em;white-space:nowrap}
+.minimal-header .main-nav{margin:0;gap:1.4rem}
+.minimal-header .collection-menu summary,.minimal-header .main-nav>a{font-size:.9rem;letter-spacing:.01em}
+.minimal-header .collection-menu-list{right:0}
+.home-gallery{display:flex;flex-direction:column;gap:6px;padding:0 0 6px}
+.photo-row{display:flex;gap:6px;align-items:flex-start;width:100%}
+.home-photo{display:block;flex-basis:0;flex-shrink:1;min-width:0;padding:0;margin:0;border:0;border-radius:0;background:none;cursor:pointer;overflow:hidden}
+.home-photo img{width:100%;height:auto;max-width:none;transition:filter .25s ease}
+.home-photo:hover img{filter:brightness(.95)}
+.home-photo:focus-visible{outline:2px solid #a1734f;outline-offset:-3px}
+@media(max-width:650px){.home-page .minimal-header,.collection-page .minimal-header{min-height:76px;padding:19px 18px}.site-name{font-size:2rem}.minimal-header .main-nav{gap:.8rem}.minimal-header .collection-menu summary,.minimal-header .main-nav>a{font-size:.8rem}.home-gallery,.photo-row{gap:4px}.home-gallery{padding-bottom:4px}}
