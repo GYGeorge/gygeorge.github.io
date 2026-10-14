@@ -22,6 +22,7 @@ if destination_photos.exists():
     shutil.rmtree(destination_photos)
 shutil.copytree(source_previews, destination_photos / "previews")
 shutil.copytree(ROOT / "collections", DIST / "collections")
+shutil.copytree(ROOT / "parameters", DIST / "parameters")
 (DIST / ".nojekyll").touch()
 
 print(f"Ready: {DIST} (original JPGs excluded)")

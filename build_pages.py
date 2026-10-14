@@ -7,6 +7,7 @@ import json
 import re
 from pathlib import Path
 from urllib.parse import quote
+from build_stats import generate_statistics
 
 ROOT = Path(__file__).resolve().parent
 
@@ -92,8 +93,9 @@ def generate_pages() -> None:
   <a class="skip-link" href="#main">跳到内容</a>
   <header class="site-header minimal-header">
     <a class="site-name" href="../../">gao yuan</a>
-    <nav class="main-nav" aria-label="主导航"><a href="../../">首页</a>
+    <nav class="main-nav" aria-label="主导航">
       <details class="collection-menu" id="collection-menu"><summary>作品集</summary><div class="collection-menu-list" id="album-menu-list">{menu('../../')}</div></details>
+      <a href="../../parameters/">拍摄参数</a>
       </nav>
   </header>
   <main id="main"><section class="archive section-wrap" id="archive" aria-labelledby="archive-title">
@@ -108,6 +110,7 @@ def generate_pages() -> None:
         destination.mkdir(parents=True, exist_ok=True)
         (destination / "index.html").write_text(page, encoding="utf-8")
     (ROOT / ".nojekyll").touch()
+    generate_statistics(ROOT, photos, config, head.replace('../../', '../'), menu('../'), dialog)
     print(f"Generated {len(albums) + 1} independent collection pages")
 
 

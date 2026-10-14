@@ -10,6 +10,8 @@
 
 独立页面：布达佩斯 `/collections/budapest/`、德国 `/collections/germany/`、意大利 `/collections/italy/`、山水风光 `/collections/landscapes/`、舷窗之外 `/collections/from-plane/`，以及全部照片 `/collections/all/`。
 
+拍摄参数页 `/parameters/` 列出全部照片的光圈、快门、焦距和 ISO，并按实际参数值绘制四张纵向排列的分布柱状图。图表由 `build_stats.py` 根据同一份 `photos.json` 生成；缺失的 EXIF 不计入柱状图，并在清单中显示为“—”。运行 `build_site.py` 时会自动重建此页。
+
 网站从 JPG 的 EXIF 读取 ISO、快门、光圈、焦距、机身和镜头信息。若导出时这些信息已被清除，网页会显示“拍摄参数未保留”，不会推测数值。公开的 `photos.json` 不包含 GPS、相机序列号等 EXIF 字段。
 
 ## 本地查看与发布

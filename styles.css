@@ -72,3 +72,29 @@
 .home-photo:hover img{filter:brightness(.95)}
 .home-photo:focus-visible{outline:2px solid #a1734f;outline-offset:-3px}
 @media(max-width:650px){.home-page .minimal-header,.collection-page .minimal-header{min-height:76px;padding:19px 18px}.site-name{font-size:2rem}.minimal-header .main-nav{gap:.8rem}.minimal-header .collection-menu summary,.minimal-header .main-nav>a{font-size:.8rem}.home-gallery,.photo-row{gap:4px}.home-gallery{padding-bottom:4px}}
+
+.parameter-main{max-width:1120px;margin:0 auto;padding:3.5rem clamp(1.1rem,4vw,3rem) 4rem}
+.parameter-main h1{font-family:var(--serif);font-size:clamp(2rem,4vw,3.3rem);font-weight:400;margin:0 0 1rem}
+.parameter-summary{display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;color:var(--muted);font-size:.8rem;margin-bottom:3rem}
+.parameter-charts{display:flex;flex-direction:column;gap:2.2rem}
+.parameter-chart-section{padding:1.4rem 1.3rem .5rem;background:#ece6dc;border:1px solid #d8d0c3}
+.parameter-chart-heading{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-bottom:.6rem}
+.parameter-main h2{font-family:var(--serif);font-size:1.45rem;font-weight:500;margin:0}
+.parameter-chart-heading span{font-size:.73rem;color:var(--muted)}
+.chart-scroll,.table-scroll{overflow-x:auto;overscroll-behavior-x:contain}
+.parameter-chart{display:block;width:100%;min-width:760px;font-family:var(--sans);overflow:visible}
+.chart-gridline{stroke:#d4cdc0;stroke-width:1}
+.chart-bar{fill:#a1734f;transition:fill .15s}
+.chart-bar:hover{fill:#725039}
+.chart-tick,.chart-label,.axis-unit{fill:#5d6259;font-size:12px}
+.chart-count{fill:#343c33;font-size:12px;font-weight:600}
+.parameter-log{margin-top:3.5rem}
+.parameter-log h2{margin-bottom:1.2rem}
+.parameter-table{width:100%;min-width:850px;border-collapse:collapse;font-size:.78rem;text-align:left}
+.parameter-table td,.parameter-table th{padding:.7rem .75rem;border-bottom:1px solid var(--line);white-space:nowrap;font-weight:400}
+.parameter-table thead th{background:#e7dfd3;font-weight:600}
+.parameter-table tbody tr:hover{background:#ebe6dc}
+.parameter-photo{display:block;width:64px;height:48px}
+.parameter-photo img{width:100%;height:100%;object-fit:cover}
+.minimal-header .main-nav a[aria-current="page"]{text-decoration:underline;text-underline-offset:.35rem}
+@media(max-width:650px){.parameter-main{padding-top:2rem}.parameter-summary{gap:.5rem 1rem;margin-bottom:2rem;font-size:.7rem}.parameter-chart-section{padding:1rem .8rem .3rem}.parameter-chart-heading{flex-direction:column;gap:.3rem}.parameter-chart-heading span{font-size:.68rem}.parameter-table td,.parameter-table th{padding:.6rem}.minimal-header .main-nav{gap:.65rem}}

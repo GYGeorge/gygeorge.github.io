@@ -322,6 +322,14 @@ document.addEventListener("click", (event) => {
 document.querySelectorAll(".feature-card").forEach((button) => {
   button.addEventListener("click", () => openPhoto(button.dataset.photoId, button));
 });
+document.querySelectorAll(".parameter-photo").forEach((link) => {
+  link.addEventListener("click", (event) => {
+    if (!photos.some((photo) => photo.id === link.dataset.photoId)) return;
+    event.preventDefault();
+    visiblePhotos = photos;
+    openPhoto(link.dataset.photoId, link);
+  });
+});
 document.getElementById("lightbox-close").addEventListener("click", () => dialog.close());
 document.getElementById("lightbox-prev").addEventListener("click", () => showPhoto(currentIndex - 1));
 document.getElementById("lightbox-next").addEventListener("click", () => showPhoto(currentIndex + 1));
