@@ -1,10 +1,11 @@
 [
   {
     "id": "01",
+    "album": "original",
     "original": "1-5_good.jpg",
-    "src": "photos/previews/01-view.webp",
-    "detail": "photos/previews/01-detail.webp",
-    "thumb": "photos/previews/01-thumb.webp",
+    "src": "photos/previews/original/01-view.webp",
+    "detail": "photos/previews/original/01-detail.webp",
+    "thumb": "photos/previews/original/01-thumb.webp",
     "width": 8256,
     "height": 5160,
     "exposure": {
@@ -18,10 +19,11 @@
   },
   {
     "id": "02",
+    "album": "original",
     "original": "DSC_0319-1.jpg",
-    "src": "photos/previews/02-view.webp",
-    "detail": "photos/previews/02-detail.webp",
-    "thumb": "photos/previews/02-thumb.webp",
+    "src": "photos/previews/original/02-view.webp",
+    "detail": "photos/previews/original/02-detail.webp",
+    "thumb": "photos/previews/original/02-thumb.webp",
     "width": 5504,
     "height": 8256,
     "exposure": {
@@ -35,10 +37,11 @@
   },
   {
     "id": "03",
+    "album": "original",
     "original": "DSC_0551_good.jpg",
-    "src": "photos/previews/03-view.webp",
-    "detail": "photos/previews/03-detail.webp",
-    "thumb": "photos/previews/03-thumb.webp",
+    "src": "photos/previews/original/03-view.webp",
+    "detail": "photos/previews/original/03-detail.webp",
+    "thumb": "photos/previews/original/03-thumb.webp",
     "width": 7917,
     "height": 4453,
     "exposure": {
@@ -52,10 +55,11 @@
   },
   {
     "id": "04",
+    "album": "original",
     "original": "DSC_0568_good.jpg",
-    "src": "photos/previews/04-view.webp",
-    "detail": "photos/previews/04-detail.webp",
-    "thumb": "photos/previews/04-thumb.webp",
+    "src": "photos/previews/original/04-view.webp",
+    "detail": "photos/previews/original/04-detail.webp",
+    "thumb": "photos/previews/original/04-thumb.webp",
     "width": 7165,
     "height": 4478,
     "exposure": {
@@ -69,10 +73,11 @@
   },
   {
     "id": "05",
+    "album": "original",
     "original": "DSC_0692_good.jpg",
-    "src": "photos/previews/05-view.webp",
-    "detail": "photos/previews/05-detail.webp",
-    "thumb": "photos/previews/05-thumb.webp",
+    "src": "photos/previews/original/05-view.webp",
+    "detail": "photos/previews/original/05-detail.webp",
+    "thumb": "photos/previews/original/05-thumb.webp",
     "width": 8032,
     "height": 5020,
     "exposure": {
@@ -86,10 +91,11 @@
   },
   {
     "id": "06",
+    "album": "original",
     "original": "DSC_0720_good.jpg",
-    "src": "photos/previews/06-view.webp",
-    "detail": "photos/previews/06-detail.webp",
-    "thumb": "photos/previews/06-thumb.webp",
+    "src": "photos/previews/original/06-view.webp",
+    "detail": "photos/previews/original/06-detail.webp",
+    "thumb": "photos/previews/original/06-thumb.webp",
     "width": 7756,
     "height": 4847,
     "exposure": {
@@ -103,10 +109,11 @@
   },
   {
     "id": "07",
+    "album": "original",
     "original": "DSC_1604_good.jpg",
-    "src": "photos/previews/07-view.webp",
-    "detail": "photos/previews/07-detail.webp",
-    "thumb": "photos/previews/07-thumb.webp",
+    "src": "photos/previews/original/07-view.webp",
+    "detail": "photos/previews/original/07-detail.webp",
+    "thumb": "photos/previews/original/07-thumb.webp",
     "width": 7767,
     "height": 4854,
     "exposure": {
@@ -120,10 +127,11 @@
   },
   {
     "id": "08",
+    "album": "original",
     "original": "DSC_1613_good.jpg",
-    "src": "photos/previews/08-view.webp",
-    "detail": "photos/previews/08-detail.webp",
-    "thumb": "photos/previews/08-thumb.webp",
+    "src": "photos/previews/original/08-view.webp",
+    "detail": "photos/previews/original/08-detail.webp",
+    "thumb": "photos/previews/original/08-thumb.webp",
     "width": 8297,
     "height": 5186,
     "exposure": {
@@ -137,10 +145,11 @@
   },
   {
     "id": "09",
+    "album": "original",
     "original": "DSC_1690_good.jpg",
-    "src": "photos/previews/09-view.webp",
-    "detail": "photos/previews/09-detail.webp",
-    "thumb": "photos/previews/09-thumb.webp",
+    "src": "photos/previews/original/09-view.webp",
+    "detail": "photos/previews/original/09-detail.webp",
+    "thumb": "photos/previews/original/09-thumb.webp",
     "width": 8425,
     "height": 5266,
     "exposure": {
@@ -154,10 +163,11 @@
   },
   {
     "id": "10",
+    "album": "original",
     "original": "DSC_2042_good_2.jpg",
-    "src": "photos/previews/10-view.webp",
-    "detail": "photos/previews/10-detail.webp",
-    "thumb": "photos/previews/10-thumb.webp",
+    "src": "photos/previews/original/10-view.webp",
+    "detail": "photos/previews/original/10-detail.webp",
+    "thumb": "photos/previews/original/10-thumb.webp",
     "width": 8464,
     "height": 4761,
     "exposure": {
@@ -171,10 +181,11 @@
   },
   {
     "id": "11",
+    "album": "original",
     "original": "DSC_2148_good.jpg",
-    "src": "photos/previews/11-view.webp",
-    "detail": "photos/previews/11-detail.webp",
-    "thumb": "photos/previews/11-thumb.webp",
+    "src": "photos/previews/original/11-view.webp",
+    "detail": "photos/previews/original/11-detail.webp",
+    "thumb": "photos/previews/original/11-thumb.webp",
     "width": 8397,
     "height": 5248,
     "exposure": {
@@ -188,10 +199,11 @@
   },
   {
     "id": "12",
+    "album": "original",
     "original": "DSC_7192-1.jpg",
-    "src": "photos/previews/12-view.webp",
-    "detail": "photos/previews/12-detail.webp",
-    "thumb": "photos/previews/12-thumb.webp",
+    "src": "photos/previews/original/12-view.webp",
+    "detail": "photos/previews/original/12-detail.webp",
+    "thumb": "photos/previews/original/12-thumb.webp",
     "width": 5504,
     "height": 8256,
     "exposure": {
@@ -205,10 +217,11 @@
   },
   {
     "id": "13",
+    "album": "original",
     "original": "DSC_7357-2.jpg",
-    "src": "photos/previews/13-view.webp",
-    "detail": "photos/previews/13-detail.webp",
-    "thumb": "photos/previews/13-thumb.webp",
+    "src": "photos/previews/original/13-view.webp",
+    "detail": "photos/previews/original/13-detail.webp",
+    "thumb": "photos/previews/original/13-thumb.webp",
     "width": 8256,
     "height": 5504,
     "exposure": {
@@ -222,10 +235,11 @@
   },
   {
     "id": "14",
+    "album": "original",
     "original": "DSC_7832-1.jpg",
-    "src": "photos/previews/14-view.webp",
-    "detail": "photos/previews/14-detail.webp",
-    "thumb": "photos/previews/14-thumb.webp",
+    "src": "photos/previews/original/14-view.webp",
+    "detail": "photos/previews/original/14-detail.webp",
+    "thumb": "photos/previews/original/14-thumb.webp",
     "width": 8256,
     "height": 5504,
     "exposure": {
@@ -239,10 +253,11 @@
   },
   {
     "id": "15",
+    "album": "original",
     "original": "DSC_8018-3.jpg",
-    "src": "photos/previews/15-view.webp",
-    "detail": "photos/previews/15-detail.webp",
-    "thumb": "photos/previews/15-thumb.webp",
+    "src": "photos/previews/original/15-view.webp",
+    "detail": "photos/previews/original/15-detail.webp",
+    "thumb": "photos/previews/original/15-thumb.webp",
     "width": 8256,
     "height": 5504,
     "exposure": {
@@ -256,10 +271,11 @@
   },
   {
     "id": "16",
+    "album": "original",
     "original": "DSC_9502_ig.jpg",
-    "src": "photos/previews/16-view.webp",
-    "detail": "photos/previews/16-detail.webp",
-    "thumb": "photos/previews/16-thumb.webp",
+    "src": "photos/previews/original/16-view.webp",
+    "detail": "photos/previews/original/16-detail.webp",
+    "thumb": "photos/previews/original/16-thumb.webp",
     "width": 8408,
     "height": 4729,
     "exposure": {
@@ -273,10 +289,11 @@
   },
   {
     "id": "17",
+    "album": "original",
     "original": "DSC_9503.jpg",
-    "src": "photos/previews/17-view.webp",
-    "detail": "photos/previews/17-detail.webp",
-    "thumb": "photos/previews/17-thumb.webp",
+    "src": "photos/previews/original/17-view.webp",
+    "detail": "photos/previews/original/17-detail.webp",
+    "thumb": "photos/previews/original/17-thumb.webp",
     "width": 8256,
     "height": 5504,
     "exposure": {
@@ -290,10 +307,11 @@
   },
   {
     "id": "18",
+    "album": "original",
     "original": "output1_good.jpg",
-    "src": "photos/previews/18-view.webp",
-    "detail": "photos/previews/18-detail.webp",
-    "thumb": "photos/previews/18-thumb.webp",
+    "src": "photos/previews/original/18-view.webp",
+    "detail": "photos/previews/original/18-detail.webp",
+    "thumb": "photos/previews/original/18-thumb.webp",
     "width": 8288,
     "height": 5520,
     "exposure": {
@@ -303,6 +321,816 @@
       "focalLength": "16 mm",
       "camera": "Z 7_2",
       "lens": "Viltrox AF 16/1.8 Z"
+    }
+  },
+  {
+    "id": "Italy-01",
+    "album": "Italy",
+    "original": "DSC_4103.jpg",
+    "src": "photos/previews/Italy/01-view.webp",
+    "detail": "photos/previews/Italy/01-detail.webp",
+    "thumb": "photos/previews/Italy/01-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/200 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "24 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-02",
+    "album": "Italy",
+    "original": "DSC_4112.jpg",
+    "src": "photos/previews/Italy/02-view.webp",
+    "detail": "photos/previews/Italy/02-detail.webp",
+    "thumb": "photos/previews/Italy/02-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/500 秒",
+      "aperture": "f/7.1",
+      "iso": 64,
+      "focalLength": "46 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-03",
+    "album": "Italy",
+    "original": "DSC_4146.jpg",
+    "src": "photos/previews/Italy/03-view.webp",
+    "detail": "photos/previews/Italy/03-detail.webp",
+    "thumb": "photos/previews/Italy/03-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/320 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "50 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-04",
+    "album": "Italy",
+    "original": "DSC_4249.jpg",
+    "src": "photos/previews/Italy/04-view.webp",
+    "detail": "photos/previews/Italy/04-detail.webp",
+    "thumb": "photos/previews/Italy/04-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/60 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-05",
+    "album": "Italy",
+    "original": "DSC_4320.jpg",
+    "src": "photos/previews/Italy/05-view.webp",
+    "detail": "photos/previews/Italy/05-detail.webp",
+    "thumb": "photos/previews/Italy/05-thumb.webp",
+    "width": 8183,
+    "height": 5455,
+    "exposure": {
+      "shutter": "1/1250 秒",
+      "aperture": "f/4",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-06",
+    "album": "Italy",
+    "original": "DSC_4471.jpg",
+    "src": "photos/previews/Italy/06-view.webp",
+    "detail": "photos/previews/Italy/06-detail.webp",
+    "thumb": "photos/previews/Italy/06-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/160 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "67 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-07",
+    "album": "Italy",
+    "original": "DSC_4478.jpg",
+    "src": "photos/previews/Italy/07-view.webp",
+    "detail": "photos/previews/Italy/07-detail.webp",
+    "thumb": "photos/previews/Italy/07-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/250 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "68 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-08",
+    "album": "Italy",
+    "original": "DSC_4524.jpg",
+    "src": "photos/previews/Italy/08-view.webp",
+    "detail": "photos/previews/Italy/08-detail.webp",
+    "thumb": "photos/previews/Italy/08-thumb.webp",
+    "width": 5504,
+    "height": 8256,
+    "exposure": {
+      "shutter": "1/1600 秒",
+      "aperture": "f/4",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-09",
+    "album": "Italy",
+    "original": "DSC_4527.jpg",
+    "src": "photos/previews/Italy/09-view.webp",
+    "detail": "photos/previews/Italy/09-detail.webp",
+    "thumb": "photos/previews/Italy/09-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/1250 秒",
+      "aperture": "f/4",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-10",
+    "album": "Italy",
+    "original": "DSC_4543.jpg",
+    "src": "photos/previews/Italy/10-view.webp",
+    "detail": "photos/previews/Italy/10-detail.webp",
+    "thumb": "photos/previews/Italy/10-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/1000 秒",
+      "aperture": "f/4",
+      "iso": 64,
+      "focalLength": "88 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-11",
+    "album": "Italy",
+    "original": "DSC_4544.jpg",
+    "src": "photos/previews/Italy/11-view.webp",
+    "detail": "photos/previews/Italy/11-detail.webp",
+    "thumb": "photos/previews/Italy/11-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/1250 秒",
+      "aperture": "f/4",
+      "iso": 64,
+      "focalLength": "105 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "Italy-12",
+    "album": "Italy",
+    "original": "DSC_4544_1.jpg",
+    "src": "photos/previews/Italy/12-view.webp",
+    "detail": "photos/previews/Italy/12-detail.webp",
+    "thumb": "photos/previews/Italy/12-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/1250 秒",
+      "aperture": "f/4",
+      "iso": 64,
+      "focalLength": "105 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "budapest-01",
+    "album": "budapest",
+    "original": "DSC_0053-1.jpg",
+    "src": "photos/previews/budapest/01-view.webp",
+    "detail": "photos/previews/budapest/01-detail.webp",
+    "thumb": "photos/previews/budapest/01-thumb.webp",
+    "width": 6954,
+    "height": 4636,
+    "exposure": {
+      "shutter": null,
+      "aperture": null,
+      "iso": null,
+      "focalLength": null,
+      "camera": null,
+      "lens": null
+    }
+  },
+  {
+    "id": "budapest-02",
+    "album": "budapest",
+    "original": "DSC_8213.JPG",
+    "src": "photos/previews/budapest/02-view.webp",
+    "detail": "photos/previews/budapest/02-detail.webp",
+    "thumb": "photos/previews/budapest/02-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/13 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    }
+  },
+  {
+    "id": "budapest-03",
+    "album": "budapest",
+    "original": "DSC_8214.JPG",
+    "src": "photos/previews/budapest/03-view.webp",
+    "detail": "photos/previews/budapest/03-detail.webp",
+    "thumb": "photos/previews/budapest/03-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/6 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "71 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    }
+  },
+  {
+    "id": "budapest-04",
+    "album": "budapest",
+    "original": "DSC_8217.JPG",
+    "src": "photos/previews/budapest/04-view.webp",
+    "detail": "photos/previews/budapest/04-detail.webp",
+    "thumb": "photos/previews/budapest/04-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/6 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "86 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    }
+  },
+  {
+    "id": "budapest-05",
+    "album": "budapest",
+    "original": "DSC_9169_ig_1.jpg",
+    "src": "photos/previews/budapest/05-view.webp",
+    "detail": "photos/previews/budapest/05-detail.webp",
+    "thumb": "photos/previews/budapest/05-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/400 秒",
+      "aperture": "f/11",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "budapest-06",
+    "album": "budapest",
+    "original": "DSC_9171_ig.jpg",
+    "src": "photos/previews/budapest/06-view.webp",
+    "detail": "photos/previews/budapest/06-detail.webp",
+    "thumb": "photos/previews/budapest/06-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/400 秒",
+      "aperture": "f/11",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "budapest-07",
+    "album": "budapest",
+    "original": "DSC_9172_ig.jpg",
+    "src": "photos/previews/budapest/07-view.webp",
+    "detail": "photos/previews/budapest/07-detail.webp",
+    "thumb": "photos/previews/budapest/07-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/320 秒",
+      "aperture": "f/11",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "budapest-08",
+    "album": "budapest",
+    "original": "DSC_9176_ig.jpg",
+    "src": "photos/previews/budapest/08-view.webp",
+    "detail": "photos/previews/budapest/08-detail.webp",
+    "thumb": "photos/previews/budapest/08-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/200 秒",
+      "aperture": "f/11",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "budapest-09",
+    "album": "budapest",
+    "original": "DSC_9188_ig.jpg",
+    "src": "photos/previews/budapest/09-view.webp",
+    "detail": "photos/previews/budapest/09-detail.webp",
+    "thumb": "photos/previews/budapest/09-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/200 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "99 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "budapest-10",
+    "album": "budapest",
+    "original": "DSC_9193_ig.jpg",
+    "src": "photos/previews/budapest/10-view.webp",
+    "detail": "photos/previews/budapest/10-detail.webp",
+    "thumb": "photos/previews/budapest/10-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/640 秒",
+      "aperture": "f/6.3",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "budapest-11",
+    "album": "budapest",
+    "original": "DSC_9196_ig.jpg",
+    "src": "photos/previews/budapest/11-view.webp",
+    "detail": "photos/previews/budapest/11-detail.webp",
+    "thumb": "photos/previews/budapest/11-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/640 秒",
+      "aperture": "f/6.3",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "from_plane-01",
+    "album": "from_plane",
+    "original": "DSC_3862_ig.jpg",
+    "src": "photos/previews/from_plane/01-view.webp",
+    "detail": "photos/previews/from_plane/01-detail.webp",
+    "thumb": "photos/previews/from_plane/01-thumb.webp",
+    "width": 4926,
+    "height": 7390,
+    "exposure": {
+      "shutter": "1/1000 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "from_plane-02",
+    "album": "from_plane",
+    "original": "DSC_3871_ig.jpg",
+    "src": "photos/previews/from_plane/02-view.webp",
+    "detail": "photos/previews/from_plane/02-detail.webp",
+    "thumb": "photos/previews/from_plane/02-thumb.webp",
+    "width": 4877,
+    "height": 7316,
+    "exposure": {
+      "shutter": "1/500 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "from_plane-03",
+    "album": "from_plane",
+    "original": "DSC_3883_ig.jpg",
+    "src": "photos/previews/from_plane/03-view.webp",
+    "detail": "photos/previews/from_plane/03-detail.webp",
+    "thumb": "photos/previews/from_plane/03-thumb.webp",
+    "width": 5504,
+    "height": 8256,
+    "exposure": {
+      "shutter": "1/1000 秒",
+      "aperture": "f/5.6",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "from_plane-04",
+    "album": "from_plane",
+    "original": "DSC_3884_ig.jpg",
+    "src": "photos/previews/from_plane/04-view.webp",
+    "detail": "photos/previews/from_plane/04-detail.webp",
+    "thumb": "photos/previews/from_plane/04-thumb.webp",
+    "width": 5084,
+    "height": 7626,
+    "exposure": {
+      "shutter": "1/1000 秒",
+      "aperture": "f/5.6",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "from_plane-05",
+    "album": "from_plane",
+    "original": "DSC_3886_ig.jpg",
+    "src": "photos/previews/from_plane/05-view.webp",
+    "detail": "photos/previews/from_plane/05-detail.webp",
+    "thumb": "photos/previews/from_plane/05-thumb.webp",
+    "width": 4863,
+    "height": 7295,
+    "exposure": {
+      "shutter": "1/1000 秒",
+      "aperture": "f/5.6",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "from_plane-06",
+    "album": "from_plane",
+    "original": "DSC_3891_ig.jpg",
+    "src": "photos/previews/from_plane/06-view.webp",
+    "detail": "photos/previews/from_plane/06-detail.webp",
+    "thumb": "photos/previews/from_plane/06-thumb.webp",
+    "width": 5050,
+    "height": 7574,
+    "exposure": {
+      "shutter": "1/1000 秒",
+      "aperture": "f/5.6",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "from_plane-07",
+    "album": "from_plane",
+    "original": "DSC_3892_ig.jpg",
+    "src": "photos/previews/from_plane/07-view.webp",
+    "detail": "photos/previews/from_plane/07-detail.webp",
+    "thumb": "photos/previews/from_plane/07-thumb.webp",
+    "width": 4705,
+    "height": 7058,
+    "exposure": {
+      "shutter": "1/320 秒",
+      "aperture": "f/5.6",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "from_plane-08",
+    "album": "from_plane",
+    "original": "DSC_3893_ig.jpg",
+    "src": "photos/previews/from_plane/08-view.webp",
+    "detail": "photos/previews/from_plane/08-detail.webp",
+    "thumb": "photos/previews/from_plane/08-thumb.webp",
+    "width": 4825,
+    "height": 7238,
+    "exposure": {
+      "shutter": "1/320 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "from_plane-09",
+    "album": "from_plane",
+    "original": "DSC_3901_ig.jpg",
+    "src": "photos/previews/from_plane/09-view.webp",
+    "detail": "photos/previews/from_plane/09-detail.webp",
+    "thumb": "photos/previews/from_plane/09-thumb.webp",
+    "width": 5504,
+    "height": 8256,
+    "exposure": {
+      "shutter": "1/250 秒",
+      "aperture": "f/5.6",
+      "iso": 64,
+      "focalLength": "120 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-01",
+    "album": "germany",
+    "original": "20260707-DSC_8443.jpg",
+    "src": "photos/previews/germany/01-view.webp",
+    "detail": "photos/previews/germany/01-detail.webp",
+    "thumb": "photos/previews/germany/01-thumb.webp",
+    "width": 8256,
+    "height": 5160,
+    "exposure": {
+      "shutter": "1/250 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "34.5 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-02",
+    "album": "germany",
+    "original": "20260708-DSC_8488.jpg",
+    "src": "photos/previews/germany/02-view.webp",
+    "detail": "photos/previews/germany/02-detail.webp",
+    "thumb": "photos/previews/germany/02-thumb.webp",
+    "width": 7709,
+    "height": 5139,
+    "exposure": {
+      "shutter": "1/125 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "83 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-03",
+    "album": "germany",
+    "original": "20260708-DSC_8528.avif",
+    "src": "photos/previews/germany/03-view.webp",
+    "detail": "photos/previews/germany/03-detail.webp",
+    "thumb": "photos/previews/germany/03-thumb.webp",
+    "width": 5504,
+    "height": 8256,
+    "exposure": {
+      "shutter": "1/125 秒",
+      "aperture": "f/8",
+      "iso": 560,
+      "focalLength": "101 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-04",
+    "album": "germany",
+    "original": "20260710-DSC_8594.jpg",
+    "src": "photos/previews/germany/04-view.webp",
+    "detail": "photos/previews/germany/04-detail.webp",
+    "thumb": "photos/previews/germany/04-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/80 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "44 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-05",
+    "album": "germany",
+    "original": "20260710-DSC_8595.jpg",
+    "src": "photos/previews/germany/05-view.webp",
+    "detail": "photos/previews/germany/05-detail.webp",
+    "thumb": "photos/previews/germany/05-thumb.webp",
+    "width": 5504,
+    "height": 8256,
+    "exposure": {
+      "shutter": "1/160 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "91 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-06",
+    "album": "germany",
+    "original": "20260710-DSC_8597.jpg",
+    "src": "photos/previews/germany/06-view.webp",
+    "detail": "photos/previews/germany/06-detail.webp",
+    "thumb": "photos/previews/germany/06-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/60 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "52 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-07",
+    "album": "germany",
+    "original": "20260710-DSC_8601.jpg",
+    "src": "photos/previews/germany/07-view.webp",
+    "detail": "photos/previews/germany/07-detail.webp",
+    "thumb": "photos/previews/germany/07-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/100 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "87 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-08",
+    "album": "germany",
+    "original": "20260710-DSC_8641-HDR-2.jpg",
+    "src": "photos/previews/germany/08-view.webp",
+    "detail": "photos/previews/germany/08-detail.webp",
+    "thumb": "photos/previews/germany/08-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/40 秒",
+      "aperture": "f/14",
+      "iso": 64,
+      "focalLength": "34.5 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-09",
+    "album": "germany",
+    "original": "20260710-DSC_8644-HDR-2.jpg",
+    "src": "photos/previews/germany/09-view.webp",
+    "detail": "photos/previews/germany/09-detail.webp",
+    "thumb": "photos/previews/germany/09-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/25 秒",
+      "aperture": "f/16",
+      "iso": 64,
+      "focalLength": "24 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-10",
+    "album": "germany",
+    "original": "20260710-DSC_8736.avif",
+    "src": "photos/previews/germany/10-view.webp",
+    "detail": "photos/previews/germany/10-detail.webp",
+    "thumb": "photos/previews/germany/10-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "20 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "36 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-11",
+    "album": "germany",
+    "original": "20260712-DSC_8817.jpg",
+    "src": "photos/previews/germany/11-view.webp",
+    "detail": "photos/previews/germany/11-detail.webp",
+    "thumb": "photos/previews/germany/11-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/125 秒",
+      "aperture": "f/8",
+      "iso": 64,
+      "focalLength": "34.5 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-12",
+    "album": "germany",
+    "original": "20260712-DSC_8892.jpg",
+    "src": "photos/previews/germany/12-view.webp",
+    "detail": "photos/previews/germany/12-detail.webp",
+    "thumb": "photos/previews/germany/12-thumb.webp",
+    "width": 8256,
+    "height": 5504,
+    "exposure": {
+      "shutter": "1/640 秒",
+      "aperture": "f/4",
+      "iso": 400,
+      "focalLength": "47 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
+    }
+  },
+  {
+    "id": "germany-13",
+    "album": "germany",
+    "original": "20260712-DSC_8896.jpg",
+    "src": "photos/previews/germany/13-view.webp",
+    "detail": "photos/previews/germany/13-detail.webp",
+    "thumb": "photos/previews/germany/13-thumb.webp",
+    "width": 5504,
+    "height": 8256,
+    "exposure": {
+      "shutter": "1/60 秒",
+      "aperture": "f/7.1",
+      "iso": 125,
+      "focalLength": "53 mm",
+      "camera": "NIKON Z 7_2",
+      "lens": "NIKKOR Z 24-120mm f/4 S"
     }
   }
 ]

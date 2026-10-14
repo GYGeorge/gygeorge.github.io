@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#141714" />
-    <meta name="description" content="山与光，一份关于山峦、云雾、旅途与夜空的个人摄影作品集。" />
+    <meta name="description" content="山与光，一份关于山峦、海岸、城市、舷窗与夜空的个人摄影作品集。" />
     <title>山与光 · 个人摄影作品集</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,8 +21,11 @@
         <small>FIELD NOTES</small>
       </a>
       <nav class="main-nav" aria-label="主导航">
-        <a href="#featured">精选</a>
-        <a href="#archive">照片索引</a>
+        <a href="#top">首页</a>
+        <details class="collection-menu" id="collection-menu">
+          <summary>作品集</summary>
+          <div class="collection-menu-list" id="album-menu-list"></div>
+        </details>
         <a href="#about">关于</a>
       </nav>
       <a class="header-action" href="#archive">浏览作品 <span aria-hidden="true">↗</span></a>
@@ -30,7 +33,7 @@
 
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
-        <img class="hero-image" src="photos/previews/08-view.webp" alt="阳光掠过山脊，小路通往云雾中的群峰" fetchpriority="high" />
+        <img class="hero-image" src="photos/previews/original/08-view.webp" alt="阳光掠过山脊，小路通往云雾中的群峰" fetchpriority="high" />
         <div class="hero-shade"></div>
         <div class="hero-content">
           <div class="eyebrow"><span class="eyebrow-line"></span> A PERSONAL PHOTO JOURNAL</div>
@@ -39,7 +42,7 @@
           <a class="hero-link" href="#featured">开始观看 <span aria-hidden="true">↓</span></a>
         </div>
         <div class="hero-exposure" id="hero-exposure"></div>
-        <div class="hero-index"><span>01 / 18</span><span class="hero-index-rule"></span><span>DOLOMITES</span></div>
+        <div class="hero-index"><span>01 / <span id="hero-total">05</span></span><span class="hero-index-rule"></span><span>COLLECTIONS</span></div>
         <div class="hero-side-note">SCROLL TO EXPLORE —</div>
       </section>
 
@@ -48,9 +51,9 @@
         <div class="intro-body">
           <p class="intro-kicker">在路上 · ON THE WAY</p>
           <h2>有些风景，需要<br /><span>走近才能看见。</span></h2>
-          <p class="intro-copy">这是一份持续整理的个人摄影档案。照片里有高山的距离，也有脚下的路；有等来的光，也有没料到的天气。</p>
+          <p class="intro-copy">这是一份持续整理的个人摄影档案。从高山到海岸，从城市到舷窗外的云，每个系列都留下一段值得回看的路。</p>
         </div>
-        <div class="intro-aside"><span class="round-symbol">✳</span><span>18 张照片<br />一段旅程</span></div>
+        <div class="intro-aside"><span class="round-symbol">✳</span><span id="intro-stats">63 张照片<br />5 个系列</span></div>
       </section>
 
       <section class="featured section-wrap" id="featured" aria-labelledby="featured-title">
@@ -60,15 +63,15 @@
         </div>
         <div class="featured-grid">
           <button class="feature-card feature-card-large" type="button" data-photo-id="08" aria-label="查看照片：山脊上的路">
-            <img src="photos/previews/08-view.webp" alt="小路从近处山脊延伸至远方尖峰" loading="lazy" />
+            <img src="photos/previews/original/08-view.webp" alt="小路从近处山脊延伸至远方尖峰" loading="lazy" />
             <span class="feature-overlay"><small>01 / MOUNTAIN</small><strong>山脊上的路</strong><span>查看照片 ↗</span><span class="feature-exposure"></span></span>
           </button>
           <button class="feature-card" type="button" data-photo-id="03" aria-label="查看照片：湖边的群山">
-            <img src="photos/previews/03-view.webp" alt="高山与湖畔建筑倒映在蓝色湖水中" loading="lazy" />
+            <img src="photos/previews/original/03-view.webp" alt="高山与湖畔建筑倒映在蓝色湖水中" loading="lazy" />
             <span class="feature-overlay"><small>02 / WATER</small><strong>湖边的群山</strong><span>查看照片 ↗</span><span class="feature-exposure"></span></span>
           </button>
           <button class="feature-card" type="button" data-photo-id="18" aria-label="查看照片：星河之下">
-            <img src="photos/previews/18-view.webp" alt="银河升起在山谷的夜空上方" loading="lazy" />
+            <img src="photos/previews/original/18-view.webp" alt="银河升起在山谷的夜空上方" loading="lazy" />
             <span class="feature-overlay"><small>03 / NIGHT</small><strong>星河之下</strong><span>查看照片 ↗</span><span class="feature-exposure"></span></span>
           </button>
         </div>
@@ -81,28 +84,28 @@
 
       <section class="archive section-wrap" id="archive" aria-labelledby="archive-title">
         <div class="section-heading archive-heading">
-          <div><p class="section-number">03 / 照片索引</p><h2 id="archive-title">全部作品<span class="period">。</span></h2></div>
-          <p>按主题浏览。打开照片后可按需加载高清细节，拖动查看局部。</p>
+          <div><p class="section-number">03 / 作品集</p><h2 id="archive-title">按系列观看<span class="period">。</span></h2></div>
+          <p id="archive-description">每一个文件夹，都是一段旅程。打开系列后，可按需加载高清细节。</p>
         </div>
-        <div class="gallery-controls">
-          <div class="filter-list" role="group" aria-label="按主题筛选照片">
-            <button type="button" class="filter active" data-filter="all" aria-pressed="true">全部 <span>18</span></button>
-            <button type="button" class="filter" data-filter="mountain" aria-pressed="false">山峦</button>
-            <button type="button" class="filter" data-filter="water" aria-pressed="false">水与云</button>
-            <button type="button" class="filter" data-filter="journey" aria-pressed="false">路上</button>
-            <button type="button" class="filter" data-filter="night" aria-pressed="false">夜空</button>
+        <div id="album-overview">
+          <div class="album-grid" id="album-grid"></div>
+          <a class="all-photos-link" href="?album=all#archive">浏览全部照片 <span aria-hidden="true">↗</span></a>
+        </div>
+        <div id="album-gallery" hidden>
+          <div class="album-gallery-top">
+            <a href="./#archive" class="album-back">← 全部系列</a>
+            <span class="gallery-count" id="gallery-count" aria-live="polite"></span>
           </div>
-          <span class="gallery-count" id="gallery-count" aria-live="polite">18 PHOTOGRAPHS</span>
+          <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
         </div>
-        <div class="gallery-grid" id="gallery-grid" aria-live="polite"></div>
       </section>
 
       <section class="closing" id="about" aria-labelledby="about-title">
-        <div class="closing-image"><img src="photos/previews/11-view.webp" alt="山间草坡与群山之间的一间小屋" loading="lazy" /><span class="closing-exposure" id="closing-exposure"></span></div>
+        <div class="closing-image"><img src="photos/previews/original/11-view.webp" alt="山间草坡与群山之间的一间小屋" loading="lazy" /><span class="closing-exposure" id="closing-exposure"></span></div>
         <div class="closing-content">
           <p class="section-number">04 / 关于这份档案</p>
           <h2 id="about-title">继续走，<br />继续拍。</h2>
-          <p>这里记录旅途中值得停下来的画面。照片会随着新的行程慢慢增加；这一页，从多洛米蒂开始。</p>
+          <p>这里记录旅途中值得停下来的画面。从山峦、海岸到城市与舷窗之外，照片会随着新的行程慢慢增加。</p>
           <a href="#top">回到顶部 <span aria-hidden="true">↑</span></a>
         </div>
       </section>

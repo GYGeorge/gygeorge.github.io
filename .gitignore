@@ -12,9 +12,11 @@
 /*.JPEG
 /*.PNG
 /exports/
-/photos/original/
+/photos/*/
+!/photos/previews/
 _contact.jpg
 _contact_new.jpg
 _0319_raw_preview.jpg
+_album_contact.jpg
 dist/
 __pycache__/
