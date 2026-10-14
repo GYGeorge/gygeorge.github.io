@@ -26,6 +26,9 @@
 @media(max-width:650px){.gallery-exposure{left:.35rem;bottom:.35rem;max-width:calc(100% - .7rem);font-size:.53rem;padding:.22rem .3rem}.feature-overlay .feature-exposure{font-size:.56rem}.hero-exposure{left:1.5rem;bottom:3.7rem;font-size:.58rem}.lightbox-exposure{font-size:.56rem}.lightbox-image-wrap img{max-height:calc(100vh - 130px)}}
 
 [hidden]{display:none!important}
+.collection-page .site-header{position:sticky;top:0;background:#141714}
+.collection-page .archive{min-height:calc(100svh - 160px);padding-top:4rem;padding-bottom:5rem}
+.collection-page .section-heading h1{font-family:var(--serif);font-size:clamp(2.3rem,4vw,4.4rem);font-weight:400;letter-spacing:.055em;margin:.85rem 0 0}
 .collection-menu{position:relative}
 .collection-menu summary{list-style:none;cursor:pointer;font-size:.8rem;letter-spacing:.08em;white-space:nowrap}
 .collection-menu summary::-webkit-details-marker{display:none}

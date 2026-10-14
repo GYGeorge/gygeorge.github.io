@@ -1,0 +1,7 @@
+{
+  "budapest": {"title": "布达佩斯", "description": "城市的天空、河岸与驶过的电车。", "cover": "budapest-01", "route": "budapest"},
+  "germany": {"title": "德国", "description": "旧城的街道与河畔从白昼走向夜晚。", "cover": "germany-10", "route": "germany"},
+  "Italy": {"title": "意大利", "description": "沿着海岸线，收集海风、船只与蓝色。", "cover": "Italy-01", "route": "italy"},
+  "original": {"title": "山水风光", "description": "山峦、云雾、湖泊与路上的片刻。", "cover": "08", "route": "landscapes"},
+  "from_plane": {"title": "舷窗之外", "description": "从飞机的窗口，重新看见山脉和云。", "cover": "from_plane-04", "route": "from-plane"}
+}

@@ -1,3 +1,4 @@
+const siteRoot = new URL(".", document.currentScript.src);
 const photoDetails = {
   "01": { title: "云遮山影", category: "water", alt: "云雾遮住岩峰，山影倒映在平静的湖面" },
   "02": { title: "城中暮色", category: "journey", alt: "暮色中的城市建筑与灯光" },
@@ -19,13 +20,7 @@ const photoDetails = {
   "18": { title: "星河之下", category: "night", alt: "银河悬在山谷与草地上空" },
 };
 
-const albumDetails = {
-  original: { title: "最初的旅程", description: "山峦、云雾与路上的片刻。", cover: "08" },
-  Italy: { title: "意大利海岸", description: "沿着海岸线，收集海风、船只与蓝色。", cover: "Italy-01" },
-  budapest: { title: "布达佩斯", description: "城市的天空、河岸与驶过的电车。", cover: "budapest-01" },
-  from_plane: { title: "舷窗之外", description: "从飞机的窗口，重新看见山脉和云。", cover: "from_plane-04" },
-  germany: { title: "德国城市", description: "旧城的街道与河畔从白昼走向夜晚。", cover: "germany-10" },
-};
+let albumDetails = {};
 
 const albumPhotoTitles = {
   Italy: ["海角与浪", "海边古堡", "蓝色海湾", "海面上的船", "驶向海岸", "海边露台", "海边小径", "独帆", "远处的船", "窗外的海 · I", "窗外的海 · II", "窗外的海 · III"],
@@ -169,7 +164,8 @@ function cardFor(photo) {
 }
 
 function albumHref(album) {
-  return `?album=${encodeURIComponent(album)}#archive`;
+  const route = album === "all" ? "all" : albumDetails[album]?.route || encodeURIComponent(album);
+  return new URL(`collections/${route}/`, siteRoot).href;
 }
 
 function renderAlbumMenu() {
@@ -190,6 +186,7 @@ function renderAlbumMenu() {
 }
 
 function renderAlbumCards() {
+  if (!albumGrid) return;
   const cards = albums.map((album, index) => {
     const info = albumDetails[album] || { title: album, description: "旅途中的摄影作品。" };
     const cover = photos.find((photo) => photo.id === info.cover) || photos.find((photo) => photo.album === album);
@@ -219,10 +216,10 @@ function renderAlbumCards() {
 }
 
 function renderCollection() {
-  const selection = new URLSearchParams(window.location.search).get("album");
+  const selection = document.body.dataset.album;
   const active = selection === "all" || albums.includes(selection) ? selection : null;
-  albumOverview.hidden = Boolean(active);
-  albumGallery.hidden = !active;
+  if (albumOverview) albumOverview.hidden = Boolean(active);
+  if (albumGallery) albumGallery.hidden = !active;
   if (!active) return;
   visiblePhotos = active === "all" ? photos : photos.filter((photo) => photo.album === active);
   const info = albumDetails[active];
@@ -341,20 +338,31 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "0") setZoom(1);
 });
 
-fetch("photos.json")
-  .then((response) => {
+Promise.all(["photos.json", "collection_config.json"].map((path) =>
+  fetch(new URL(path, siteRoot)).then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   })
-  .then((records) => {
+))
+  .then(([records, config]) => {
+    albumDetails = config;
     photos = records.map((record) => {
       const known = photoDetails[record.id] || {};
       const position = Number(record.id.match(/\d+$/)?.[0]) - 1;
       const title = known.title || albumPhotoTitles[record.album]?.[position] || record.original.replace(/\.[^.]+$/, "");
       const alt = known.alt || `${albumDetails[record.album]?.title || record.album}：${title}`;
-      return { ...record, title, alt };
+      return { ...record, title, alt,
+        src: new URL(record.src, siteRoot).href,
+        thumb: new URL(record.thumb, siteRoot).href,
+        detail: new URL(record.detail, siteRoot).href };
     });
-    albums = [...new Set(photos.map((photo) => photo.album))];
+    const present = [...new Set(photos.map((photo) => photo.album))];
+    albums = [...Object.keys(config).filter((album) => present.includes(album)), ...present.filter((album) => !config[album])];
+    const legacy = new URLSearchParams(window.location.search).get("album");
+    if (!document.body.dataset.album && (legacy === "all" || albums.includes(legacy))) {
+      window.location.replace(albumHref(legacy));
+      return;
+    }
     const featured = document.querySelectorAll(".feature-card");
     featured.forEach((card) => {
       const photo = photos.find((item) => item.id === card.dataset.photoId);
@@ -362,11 +370,11 @@ fetch("photos.json")
       if (photo && label) label.textContent = cameraSettings(photo);
     });
     const hero = photos.find((item) => item.id === "08");
-    if (hero) document.getElementById("hero-exposure").textContent = cameraSettings(hero);
+    if (hero && document.getElementById("hero-exposure")) document.getElementById("hero-exposure").textContent = cameraSettings(hero);
     const closing = photos.find((item) => item.id === "11");
-    if (closing) document.getElementById("closing-exposure").textContent = cameraSettings(closing);
-    document.getElementById("hero-total").textContent = String(albums.length).padStart(2, "0");
-    document.getElementById("intro-stats").innerHTML = `${photos.length} 张照片<br />${albums.length} 个系列`;
+    if (closing && document.getElementById("closing-exposure")) document.getElementById("closing-exposure").textContent = cameraSettings(closing);
+    if (document.getElementById("hero-total")) document.getElementById("hero-total").textContent = String(albums.length).padStart(2, "0");
+    if (document.getElementById("intro-stats")) document.getElementById("intro-stats").innerHTML = `${photos.length} 张照片<br />${albums.length} 个系列`;
     renderAlbumMenu();
     renderAlbumCards();
     renderCollection();
